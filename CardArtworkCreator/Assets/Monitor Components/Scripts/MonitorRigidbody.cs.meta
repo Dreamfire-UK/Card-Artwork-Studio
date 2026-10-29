@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b679e707ea35048fbb4d8c19a2f37ac3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 23765
+  packageName: Monitor Components
+  packageVersion: 1.04
+  assetPath: Assets/Monitor Components/Scripts/MonitorRigidbody.cs
+  uploadId: 192133

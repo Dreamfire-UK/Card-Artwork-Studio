@@ -1,0 +1,39 @@
+﻿echo17.com
+
+EnhancedGrid
+Changelog
+
+
+v 1.1.4
+5 April 2024
+- Fixed a bug where the scroll size could be calculated as NaN (infinity)
+- Show visible cells immediately when calling RecalculateGrid_MaintainDataIndex and RecalculateGrid_SetDataIndex
+
+
+v 1.1.3
+3 March 2024
+- Internal documentation cleanup
+
+
+v 1.1.2
+3 November 2023
+- Fixed a bug where cells were not scaling properly when canvas scaler not set to constant pixel size.
+
+
+v 1.1.1
+15 October 2023
+- Updated demos and examples to be more responsive in different resolutions.
+- Added ViewportChangeWatcher helper to notify listeners when the viewport size changes.
+- Removed the ContentMinimumSize property from EnhancedGrid. Minimum size is now the viewport.
+- Fixed bug in flow layouts LeftToRightBottomToTop and RightToLeftBottomToTop so that the groups now align along the bottom 
+
+
+v 1.1.0
+2 October 2023
+- Changed Cell Properties to use an expansionWeight instead of a cell size mode.
+- Updated Demo 3 (cell expansion).
+
+
+v 1.0.0
+2 October 2023
+- Initial Release.

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8da173e69a9bd42921b4e60f3377d5, type: 3}
+  m_Name: Seedling Attendant
+  m_EditorClassIdentifier: Assembly-CSharp::CardCreator.CardDefinition
+  cardName: Seedling Attendant
+  archetype: 
+  kind: 0
+  essence: 1
+  secondEssence: 0
+  grade: 1
+  power: 1
+  defense: 1
+  canPlayInFront: 1
+  canPlayInRear: 1
+  rearProduces: 0
+  genericEssenceCost: 0
+  guard: 0
+  promote: 0
+  promoteCondition: 
+  attackArrows: 14
+  arrowEffect: 
+  guardArrowEffect: 
+  abilities: []
+  flavorText: 
+  evolvesFrom: {fileID: 0}
+  requiredScars: 2
+  triumphQuest: 
+  onEvolution: 
+  evolutionOngoing: 
+  background: {fileID: 2800000, guid: 85e93354daa74ef0ae11811b21533447, type: 3}
+  artwork: {fileID: 2800000, guid: 653e3d69d8ace0b41b2df291e31c886c, type: 3}
+  artworkOffset: {x: -10.714275, y: 6.428592}
+  artworkScale: 1
+  artistCredit: "\xC6kashics"

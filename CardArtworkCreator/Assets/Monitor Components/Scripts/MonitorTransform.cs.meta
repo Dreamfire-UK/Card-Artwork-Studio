@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a5007bd1d00a54294b62f80343a4b522
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 23765
+  packageName: Monitor Components
+  packageVersion: 1.04
+  assetPath: Assets/Monitor Components/Scripts/MonitorTransform.cs
+  uploadId: 192133

@@ -1,0 +1,71 @@
+.card-creator {
+    flex-grow: 1;
+}
+.card-creator__toolbar {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(65, 65, 65);
+}
+.card-creator__card-field {
+    flex-grow: 1;
+    margin-right: 12px;
+}
+.card-creator__content {
+    flex-direction: row;
+    flex-grow: 1;
+    min-height: 0;
+}
+.card-creator__editor {
+    width: 48%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    border-right-width: 1px;
+    border-right-color: rgb(65, 65, 65);
+}
+.card-creator__right {
+    flex-grow: 1;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#previewHeading {
+    font-size: 16px;
+    -unity-font-style: bold;
+    margin-bottom: 6px;
+}
+.card-creator__hint {
+    max-width: 390px;
+    white-space: normal;
+    margin-bottom: 10px;
+}
+.card-creator__preview {
+    width: 350px;
+    height: 490px;
+    background-color: rgb(30, 35, 40);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(100, 100, 100);
+    border-right-color: rgb(100, 100, 100);
+    border-top-color: rgb(100, 100, 100);
+    border-bottom-color: rgb(100, 100, 100);
+}
+.card-creator__export {
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.card-creator__status {
+    max-width: 390px;
+    white-space: normal;
+    margin-top: 8px;
+}
+

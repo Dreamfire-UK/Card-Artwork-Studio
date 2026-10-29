@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4f2c7a2678218494eba5de328ec42370
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266599
+  packageName: EnhancedGrid
+  packageVersion: 1.1.5
+  assetPath: Assets/echo17/EnhancedGrid/Documentation/Changelog.txt
+  uploadId: 759189

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a270c20b2def141b3b62d21cbe61028b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 23765
+  packageName: Monitor Components
+  packageVersion: 1.04
+  assetPath: Assets/Monitor Components/Examples/JumperMan/Jumper Man.physicMaterial
+  uploadId: 192133

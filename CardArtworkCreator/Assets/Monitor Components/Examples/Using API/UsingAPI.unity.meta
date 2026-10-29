@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ec2f575f8e32b4659ba8e396c5a73ee0
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 23765
+  packageName: Monitor Components
+  packageVersion: 1.04
+  assetPath: Assets/Monitor Components/Examples/Using API/UsingAPI.unity
+  uploadId: 192133

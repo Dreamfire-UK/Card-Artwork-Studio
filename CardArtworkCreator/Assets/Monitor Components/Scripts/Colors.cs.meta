@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c9b7aafc655da46bc8f77c282b3560ab
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 23765
+  packageName: Monitor Components
+  packageVersion: 1.04
+  assetPath: Assets/Monitor Components/Scripts/Colors.cs
+  uploadId: 192133

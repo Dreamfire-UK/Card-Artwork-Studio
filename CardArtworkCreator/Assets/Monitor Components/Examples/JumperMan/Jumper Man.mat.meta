@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6cf7c13a0e1d34958a853bc883455a89
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 23765
+  packageName: Monitor Components
+  packageVersion: 1.04
+  assetPath: Assets/Monitor Components/Examples/JumperMan/Jumper Man.mat
+  uploadId: 192133

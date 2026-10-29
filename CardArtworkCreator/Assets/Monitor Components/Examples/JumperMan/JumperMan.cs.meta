@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bd1fead69ef964b7ab26da2bd73edac9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 23765
+  packageName: Monitor Components
+  packageVersion: 1.04
+  assetPath: Assets/Monitor Components/Examples/JumperMan/JumperMan.cs
+  uploadId: 192133
