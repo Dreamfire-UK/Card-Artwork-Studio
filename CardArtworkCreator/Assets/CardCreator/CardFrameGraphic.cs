@@ -37,21 +37,35 @@ namespace CardCreator
             Line(mesh,new Vector2(184,977),new Vector2(672,977),1,new Color(0.57f,0.62f,0.63f,0.65f));
             // Links sit on the artwork perimeter, separate from the text and footer.
             if(arrows == CardArrow.None) return;
-            Vector2[] positions = { new Vector2(375,19),new Vector2(725,25),new Vector2(731,y/2),
-                new Vector2(725,y-26),new Vector2(375,y-20),new Vector2(25,y-26),new Vector2(19,y/2),new Vector2(25,25) };
+            Vector2[] positions = { new Vector2(375,26),new Vector2(718,32),new Vector2(724,y/2),
+                new Vector2(718,y-41),new Vector2(375,y-26),new Vector2(32,y-41),new Vector2(26,y/2),new Vector2(32,32) };
             for(int i=0;i<8;i++)
             {
                 bool active = ((int)arrows & (1 << i)) != 0;
-                Arrow(mesh,positions[i],i*45,1.18f,Panel);
-                Arrow(mesh,positions[i],i*45,1,active ? accent : new Color(0.31f,0.36f,0.38f));
-                Arrow(mesh,positions[i] + Rotate(new Vector2(0,2),i*45),i*45,0.64f,active ? new Color(0.98f,0.76f,0.74f) : Panel);
+                LinkMarker(mesh, positions[i], i * 45, active);
             }
         }
-        private void Arrow(VertexHelper mesh,Vector2 c,float angle,float scale,Color color)
+        private void LinkMarker(VertexHelper mesh, Vector2 center, float angle, bool active)
         {
-            Vector2 a=c+Rotate(new Vector2(0,-15)*scale,angle), b=c+Rotate(new Vector2(18,12)*scale,angle);
-            Vector2 d=c+Rotate(new Vector2(-18,12)*scale,angle), n=c+Rotate(new Vector2(0,5)*scale,angle);
-            Triangle(mesh,a,b,n,color);Triangle(mesh,a,n,d,color);
+            // Filled, triangular sockets with a metallic bevel, like Link Monster markers.
+            // Active directions are always red; the card's cosmetic accent does not change them.
+            ArrowTriangle(mesh, center, angle, 1.12f, new Color(0.025f, 0.03f, 0.04f));
+            ArrowTriangle(mesh, center, angle, 1f, new Color(0.68f, 0.71f, 0.75f));
+            ArrowTriangle(mesh, center + Rotate(new Vector2(0, 1), angle), angle, 0.84f,
+                new Color(0.22f, 0.25f, 0.29f));
+            Vector2 inset = center + Rotate(new Vector2(0, 1), angle);
+            Vector2 tip = inset + Rotate(new Vector2(0, -19) * 0.73f, angle);
+            Vector2 right = inset + Rotate(new Vector2(25, 14) * 0.73f, angle);
+            Vector2 left = inset + Rotate(new Vector2(-25, 14) * 0.73f, angle);
+            Triangle(mesh, tip, left, inset, active ? new Color(1f, 0.23f, 0.18f) : new Color(0.12f, 0.14f, 0.17f));
+            Triangle(mesh, tip, inset, right, active ? new Color(0.83f, 0.055f, 0.06f) : new Color(0.055f, 0.065f, 0.08f));
+            Triangle(mesh, left, right, inset, active ? new Color(0.61f, 0.025f, 0.04f) : new Color(0.025f, 0.03f, 0.04f));
+        }
+        private void ArrowTriangle(VertexHelper mesh, Vector2 center, float angle, float scale, Color color)
+        {
+            Triangle(mesh, center + Rotate(new Vector2(0, -19) * scale, angle),
+                center + Rotate(new Vector2(25, 14) * scale, angle),
+                center + Rotate(new Vector2(-25, 14) * scale, angle), color);
         }
         private static Vector2 Rotate(Vector2 p,float degrees)
         {
