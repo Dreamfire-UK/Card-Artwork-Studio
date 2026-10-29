@@ -56,7 +56,11 @@ namespace CardCreator.Editor
 
                 var root = canvasObject.GetComponent<RectTransform>();
                 var accent = card.frameAccent;
-                float divider = card.kind == CardKind.Evolution ? 550 : 700;
+                var measure = AddText(root, font, CardPrintLayout.RichRules(card, guardStance), 0, 0, 654, 1000, 23, Color.white);
+                measure.supportRichText = true;
+                measure.lineSpacing = 1.02f;
+                float divider = Mathf.Clamp(948 - 116 - measure.preferredHeight, 620, 780);
+                UnityEngine.Object.DestroyImmediate(measure.gameObject);
                 // Both layers extend beneath the entire frame, including the text area.
                 var artPanel = AddPanel(root, "Full card illustration", 0, 0, Width, Height,
                     new Color(accent.r * 0.3f, accent.g * 0.3f, accent.b * 0.3f));
@@ -68,18 +72,18 @@ namespace CardCreator.Editor
                 {
                     float fit = card.artworkIncludesBackground
                         ? Mathf.Max(750f / card.artwork.width, divider / card.artwork.height)
-                        : Mathf.Min(730f / card.artwork.width, 1000f / card.artwork.height);
+                        : Mathf.Min(690f / card.artwork.width, (divider - 70f) / card.artwork.height);
                     float artWidth = card.artwork.width * fit * card.artworkScale;
                     float artHeight = card.artwork.height * fit * card.artworkScale;
                     var artwork = AddTexture(artPanel, "Character", card.artwork, 0, 0,
                         artWidth, artHeight, false);
                     artwork.anchorMin = artwork.anchorMax = new Vector2(0.5f, 0.5f);
                     artwork.pivot = new Vector2(0.5f, 0.5f);
-                    artwork.anchoredPosition = card.artworkOffset + (card.artworkIncludesBackground ? new Vector2(0, (Height - divider) * 0.5f) : Vector2.zero);
+                    artwork.anchoredPosition = card.artworkOffset + (card.artworkIncludesBackground ? new Vector2(0, (Height - divider) * 0.5f) : new Vector2(0, ((card.kind == CardKind.Evolution ? 620 : 700) - divider) * .5f));
                 }
 
-                AddFrame(root, card, accent, CardArrow.None, true);
-                AddFrame(root, card, accent, guardStance ? card.GuardArrows : card.attackArrows, false);
+                AddFrame(root, card, accent, CardArrow.None, true, divider);
+                AddFrame(root, card, accent, guardStance ? card.GuardArrows : card.attackArrows, false, divider);
 
                 Color ivory = new Color(0.93f, 0.94f, 0.92f);
                 Color muted = new Color(0.65f, 0.70f, 0.71f);
@@ -94,20 +98,20 @@ namespace CardCreator.Editor
                 AddText(root, font, type + "  /  " + CardPrintLayout.Cost(card), 184, divider+81, 506, 24,
                     16, muted);
                 if (card.canPlayInRear && card.rearProduces != Essence.None)
-                    AddIcon(root, EssenceIcon(card.rearProduces), 86, divider+82, 40, 40, accent);
-                if(card.guard) AddIcon(root, "checked-shield", 86, divider+150, 40, 40, accent);
-                if(card.promote) AddText(root, font, "P", 86, divider+(card.guard ? 210 : 150), 40,40,28,accent,FontStyle.Bold,TextAnchor.MiddleCenter);
-                float rulesY = divider + 124;
+                    AddIcon(root, EssenceIcon(card.rearProduces), 88, divider+56, 36, 36, accent);
+
+                float rulesY = divider + 116;
                 float rulesHeight = 960 - rulesY;
-                var rules = AddText(root, font, CardPrintLayout.Rules(card, guardStance),
-                    184, rulesY, 506, rulesHeight, 23, ivory);
+                var rules = AddText(root, font, CardPrintLayout.RichRules(card, guardStance),
+                    48, rulesY, 654, rulesHeight, 23, ivory);
+                rules.supportRichText = true;
                 rules.lineSpacing = 1.02f;
                 report.rulesOverflow = rules.preferredHeight > rulesHeight + 0.5f;
                 if (!string.IsNullOrWhiteSpace(card.flavorText))
                 {
                     float available = rulesHeight - rules.preferredHeight - 14;
-                    var flavor = AddText(root, font, card.flavorText.Trim(), 184,
-                        rulesY + rules.preferredHeight + 14, 506, Mathf.Max(1, available), 19,
+                    var flavor = AddText(root, font, card.flavorText.Trim(), 48,
+                        rulesY + rules.preferredHeight + 14, 654, Mathf.Max(1, available), 19,
                         muted, FontStyle.Italic);
                     report.flavorHidden = report.rulesOverflow || flavor.preferredHeight > available;
                     flavor.gameObject.SetActive(!report.flavorHidden);
@@ -157,12 +161,13 @@ namespace CardCreator.Editor
             rect.GetComponent<RawImage>().color = tint;
         }
 
-        private static void AddFrame(RectTransform parent, CardDefinition card, Color accent, CardArrow arrows, bool shading)
+        private static void AddFrame(RectTransform parent, CardDefinition card, Color accent, CardArrow arrows, bool shading, float divider)
         {
             var rect = AddRect(parent, shading ? "Text shading" : "Engraved frame", 0, 0, Width, Height);
             var graphic = rect.gameObject.AddComponent<CardFrameGraphic>();
             graphic.accent = accent;
             graphic.evolution = card.kind == CardKind.Evolution;
+            graphic.dividerY = divider;
             graphic.essence = card.canPlayInRear ? card.rearProduces : Essence.None;
             graphic.secondEssence = Essence.None;
             graphic.arrows = arrows;

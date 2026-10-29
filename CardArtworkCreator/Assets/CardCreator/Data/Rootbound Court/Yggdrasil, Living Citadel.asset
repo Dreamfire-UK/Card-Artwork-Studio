@@ -40,7 +40,9 @@ MonoBehaviour:
   evolutionOngoing: Once per turn, save a defeated arrowed ally by moving it to an
     empty rear zone.
   background: {fileID: 0}
-  artwork: {fileID: 2800000, guid: 7f7cce870471f8e40b514501935c5663, type: 3}
-  artworkOffset: {x: 0, y: 180}
-  artworkScale: 1.05
-  artistCredit: "\xC6kashics"
+  artwork: {fileID: 2800000, guid: c95d4dbf0e6591045a5be8fee1ab9019, type: 3}
+  artworkIncludesBackground: 0
+  artworkOffset: {x: 0, y: 215}
+  artworkScale: 1
+  artistCredit: "\xC6kashics / AI-enhanced"
+  frameAccent: {r: 0.8, g: 0.4, b: 0.49, a: 1}

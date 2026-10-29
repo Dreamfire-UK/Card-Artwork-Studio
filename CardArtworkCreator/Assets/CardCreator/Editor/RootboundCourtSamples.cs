@@ -35,14 +35,14 @@ namespace CardCreator.Editor
             warden.guardArrowEffect = "Arrowed allies get +1 defence.";
             Add(deck, warden, 2);
             var mender = Card("Grove Mender", 2, 2, 4, "Dryads Mage");
-            Ability(mender, CardTrigger.OncePerTurn, "Heal 1 damage from an ally in this or an adjacent column.");
+            Ability(mender, CardTrigger.OncePerTurn, "Choose 1 ally in this or an adjacent column; heal 1 damage from it.");
             Add(deck, mender, 2);
             var thicket = Card("Walking Thicket", 2, 3, 5, "Forest Golem", true);
             thicket.guard = true;
             Ability(thicket, CardTrigger.WhenGuarding, "If protecting an adjacent-column ally, gain +1 defence this battle.");
             Add(deck, thicket, 2);
             var herald = Card("Heartwood Herald", 3, 4, 5, "Boss Dryad Queen Rafflesia");
-            herald.attackArrows = CardArrow.West | CardArrow.East | CardArrow.North;
+            herald.attackArrows = CardArrow.West | CardArrow.East | CardArrow.South;
             herald.arrowEffect = "Arrowed allies get +1 power.";
             herald.guardArrowEffect = "Arrowed allies get +1 defence.";
             Add(deck, herald, 3);
@@ -54,8 +54,8 @@ namespace CardCreator.Editor
             boss.triumphQuest = "End an opponent's battle holding 3 consecutive columns, with at least 2 front creatures.";
             boss.onEvolution = "Heal 1 damage from each ally in those columns.";
             boss.evolutionOngoing = "Once per turn, save a defeated arrowed ally by moving it to an empty rear zone.";
-            boss.artworkScale = 1.05f;
-            boss.artworkOffset = new Vector2(0, 180);
+            boss.artworkScale = 1f;
+            boss.artworkOffset = new Vector2(0, 215);
             deck.evolutionDeck.Add(new CardDeckEntry { card = boss, quantity = 1 });
             foreach (var entry in deck.mainDeck) EditorUtility.SetDirty(entry.card);
             EditorUtility.SetDirty(boss);
@@ -77,14 +77,16 @@ namespace CardCreator.Editor
             card.defense = defense;
             card.artwork = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Aekashics Librarium Static Battlers/" +
                 (front ? "Frontview" : "Sideview") + " Batch Battlers/" + art + ".png");
-            card.artworkOffset = new Vector2(0, 105);
-            card.artworkScale = 0.88f;
+            card.artworkOffset = new Vector2(0, 175);
+            card.artworkScale = 1f;
+            var enhanced = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/CardCreator/EnhancedArtwork/" + name + ".png");
+            if (enhanced != null) { card.artwork = enhanced; card.artistCredit = "Ækashics / AI-enhanced"; }
             AssetDatabase.CreateAsset(card, path);
             return card;
         }
         private static void Add(CardDeckDefinition deck, CardDefinition card, int quantity)
             => deck.mainDeck.Add(new CardDeckEntry { card = card, quantity = quantity });
         private static void Ability(CardDefinition card, CardTrigger trigger, string effect)
-            => card.abilities.Add(new CardAbility { trigger = trigger, effect = effect });
+            => card.abilities.Add(new CardAbility { trigger = trigger, effect = effect, oncePerTurn = trigger == CardTrigger.OncePerTurn });
     }
 }

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8da173e69a9bd42921b4e60f3377d5, type: 3}
+  m_Name: Queen of the Unclaimed Path
+  m_EditorClassIdentifier: Assembly-CSharp::CardCreator.CardDefinition
+  cardName: Queen of the Unclaimed Path
+  archetype: Night Brood
+  kind: 1
+  essence: 2
+  secondEssence: 0
+  grade: 3
+  power: 5
+  defense: 6
+  canPlayInFront: 1
+  canPlayInRear: 1
+  rearProduces: 2
+  genericEssenceCost: 2
+  guard: 0
+  promote: 0
+  promoteCondition: 
+  attackArrows: 84
+  arrowEffect: 
+  guardArrowEffect: 
+  abilities: []
+  flavorText: 
+  evolvesFrom: {fileID: 11400000, guid: 91ab51ef765df7446a3fbf57a94606b2, type: 2}
+  requiredScars: 2
+  triumphQuest: Hit the opponent through a column whose enemy front zone was occupied
+    this turn.
+  onEvolution: Move one ally to an adjacent empty front zone.
+  evolutionOngoing: Once per turn, an ally entering an arrowed front zone gets +1
+    power for its next battle.
+  background: {fileID: 0}
+  artwork: {fileID: 2800000, guid: cef8f45f33e8d3d4f848123c48528469, type: 3}
+  artworkIncludesBackground: 0
+  artworkOffset: {x: 0, y: 215}
+  artworkScale: 1
+  artistCredit: "\xC6kashics / AI-enhanced"
+  frameAccent: {r: 0.65, g: 0.48, b: 0.82, a: 1}

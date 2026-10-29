@@ -9,16 +9,17 @@ namespace CardCreator
         public Color accent;
         public CardArrow arrows;
         public bool shadingOnly, evolution;
+        public float dividerY;
         public Essence essence, secondEssence;
         private static readonly Color Panel = new Color(0.105f, 0.14f, 0.16f, 1);
 
         protected override void OnPopulateMesh(VertexHelper mesh)
         {
             mesh.Clear();
-            float y = evolution ? 550 : 700;
+            float y = dividerY > 0 ? dividerY : evolution ? 620 : 700;
             if (shadingOnly)
             {
-                Quad(mesh, new Vector2(0, y), new Vector2(750, y), new Vector2(750,1050), new Vector2(0,1050), Panel);
+                Quad(mesh, new Vector2(0, y), new Vector2(750, y), new Vector2(750,1050), new Vector2(0,1050), new Color(Panel.r, Panel.g, Panel.b, .87f));
                 return;
             }
             // A single ink-like seam joins the illustration to the typography panel.
@@ -31,14 +32,14 @@ namespace CardCreator
             Diamond(mesh,new Vector2(179,y),7,Panel);
             if (essence != Essence.None)
             {
-                Circle(mesh,new Vector2(106,y+102),28,accent);
-                Circle(mesh,new Vector2(106,y+102),24,Panel);
+                Circle(mesh,new Vector2(106,y+74),28,accent);
+                Circle(mesh,new Vector2(106,y+74),24,Panel);
             }
-            Line(mesh,new Vector2(184,977),new Vector2(672,977),1,new Color(0.57f,0.62f,0.63f,0.65f));
+            Line(mesh,new Vector2(48,977),new Vector2(672,977),1,new Color(0.57f,0.62f,0.63f,0.65f));
             // Links sit on the artwork perimeter, separate from the text and footer.
             if(arrows == CardArrow.None) return;
-            Vector2[] positions = { new Vector2(375,26),new Vector2(718,32),new Vector2(724,y/2),
-                new Vector2(718,y-41),new Vector2(375,y-26),new Vector2(32,y-41),new Vector2(26,y/2),new Vector2(32,32) };
+            Vector2[] positions = { new Vector2(375,40),new Vector2(700,48),new Vector2(710,y/2),
+                new Vector2(700,y-70),new Vector2(375,y-40),new Vector2(50,y-70),new Vector2(40,y/2),new Vector2(50,48) };
             for(int i=0;i<8;i++)
             {
                 bool active = ((int)arrows & (1 << i)) != 0;
@@ -47,19 +48,11 @@ namespace CardCreator
         }
         private void LinkMarker(VertexHelper mesh, Vector2 center, float angle, bool active)
         {
-            // Filled, triangular sockets with a metallic bevel, like Link Monster markers.
-            // Active directions are always red; the card's cosmetic accent does not change them.
-            ArrowTriangle(mesh, center, angle, 1.12f, new Color(0.025f, 0.03f, 0.04f));
-            ArrowTriangle(mesh, center, angle, 1f, new Color(0.68f, 0.71f, 0.75f));
-            ArrowTriangle(mesh, center + Rotate(new Vector2(0, 1), angle), angle, 0.84f,
-                new Color(0.22f, 0.25f, 0.29f));
-            Vector2 inset = center + Rotate(new Vector2(0, 1), angle);
-            Vector2 tip = inset + Rotate(new Vector2(0, -19) * 0.73f, angle);
-            Vector2 right = inset + Rotate(new Vector2(25, 14) * 0.73f, angle);
-            Vector2 left = inset + Rotate(new Vector2(-25, 14) * 0.73f, angle);
-            Triangle(mesh, tip, left, inset, active ? new Color(1f, 0.23f, 0.18f) : new Color(0.12f, 0.14f, 0.17f));
-            Triangle(mesh, tip, inset, right, active ? new Color(0.83f, 0.055f, 0.06f) : new Color(0.055f, 0.065f, 0.08f));
-            Triangle(mesh, left, right, inset, active ? new Color(0.61f, 0.025f, 0.04f) : new Color(0.025f, 0.03f, 0.04f));
+            // Large Link-inspired silhouettes using the same ink and accent as the card frame.
+            ArrowTriangle(mesh, center, angle, 1.65f, Panel);
+            ArrowTriangle(mesh, center, angle, 1.45f, active ? accent : Color.Lerp(Panel, accent, 0.38f));
+            ArrowTriangle(mesh, center + Rotate(new Vector2(0, 1), angle), angle, 1.13f,
+                active ? Color.Lerp(accent, Color.white, 0.2f) : Panel);
         }
         private void ArrowTriangle(VertexHelper mesh, Vector2 center, float angle, float scale, Color color)
         {

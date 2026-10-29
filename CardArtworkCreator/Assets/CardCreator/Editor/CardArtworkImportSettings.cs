@@ -9,7 +9,8 @@ namespace CardCreator.Editor
         private void OnPreprocessTexture()
         {
             if (!assetPath.StartsWith("Assets/CardCreator/Illustrations/") &&
-                !assetPath.StartsWith("Assets/CardCreator/OnlineAssets/")) return;
+                !assetPath.StartsWith("Assets/CardCreator/OnlineAssets/") &&
+                !assetPath.StartsWith("Assets/CardCreator/EnhancedArtwork/")) return;
             var importer = (TextureImporter)assetImporter;
             importer.textureCompression = TextureImporterCompression.Uncompressed;
             importer.mipmapEnabled = false;

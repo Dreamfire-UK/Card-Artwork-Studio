@@ -1,0 +1,17 @@
+{
+  "data_sha256": "e40fc60cb1dbeb4cadde527cc8a11cbecc3768cdf4fee012168ebe6a2ff7d5a6",
+  "rules": {
+    "life": 20,
+    "hand": 5,
+    "actions": 2,
+    "max_turns": 80,
+    "rear_cap": 3,
+    "draw_first": false,
+    "seed": 20261029,
+    "scars": 2,
+    "arrows": true
+  },
+  "pairs": 500,
+  "seed": 20400000,
+  "scope": "Experimental complete named-card adapters; no arbitrary natural-language rule execution."
+}

@@ -1,0 +1,114 @@
+{
+  "creator": "Ækashics",
+  "method": "AI-assisted high-resolution reconstruction from original licensed sprites. These are enhanced interpretations, not recovered original detail. Original files are retained.",
+  "entries": [
+    {
+      "card": "Seedling Attendant",
+      "original": "Assets/Aekashics Librarium Static Battlers/Frontview Batch Battlers/Forest Sprout.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Seedling Attendant.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Thornwatch Stag",
+      "original": "Assets/Aekashics Librarium Static Battlers/Frontview Batch Battlers/Forest Deer.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Thornwatch Stag.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Vine Scout",
+      "original": "Assets/Aekashics Librarium Static Battlers/Sideview Batch Battlers/Dryads Archer.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Vine Scout.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Briar Sprout",
+      "original": "Assets/Aekashics Librarium Static Battlers/Frontview Batch Battlers/Forest Spora.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Briar Sprout.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Briar Warden",
+      "original": "Assets/Aekashics Librarium Static Battlers/Sideview Batch Battlers/Dryads Warrior.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Briar Warden.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Grove Mender",
+      "original": "Assets/Aekashics Librarium Static Battlers/Sideview Batch Battlers/Dryads Mage.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Grove Mender.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Walking Thicket",
+      "original": "Assets/Aekashics Librarium Static Battlers/Frontview Batch Battlers/Forest Golem.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Walking Thicket.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Heartwood Herald",
+      "original": "Assets/Aekashics Librarium Static Battlers/Sideview Batch Battlers/Boss Dryad Queen Rafflesia.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Heartwood Herald.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Yggdrasil, Living Citadel",
+      "original": "Assets/Aekashics Librarium Static Battlers/Sideview Batch Battlers/Boss Dryad Yggdrasil.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Yggdrasil, Living Citadel.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Grave Moth",
+      "original": "Assets/Aekashics Librarium Static Battlers/Frontview Batch Battlers/Insects Lunar Butterfly.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Grave Moth.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Shade Imp",
+      "original": "Assets/Aekashics Librarium Static Battlers/Sideview Batch Battlers/Darkness Imp.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Shade Imp.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Webling",
+      "original": "Assets/Aekashics Librarium Static Battlers/Frontview Batch Battlers/Forest Spider.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Webling.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Hollow Skitter",
+      "original": "Assets/Aekashics Librarium Static Battlers/Frontview Batch Battlers/Special Spiders Ghost Spider.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Hollow Skitter.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Silkspinner",
+      "original": "Assets/Aekashics Librarium Static Battlers/Frontview Batch Battlers/Forest Green Spider.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Silkspinner.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Ruin Spectre",
+      "original": "Assets/Aekashics Librarium Static Battlers/Frontview Batch Battlers/Darkness Banshee.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Ruin Spectre.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Widow Matron",
+      "original": "Assets/Aekashics Librarium Static Battlers/Frontview Batch Battlers/Forest Imperial Widow.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Widow Matron.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Broodgate Demon",
+      "original": "Assets/Aekashics Librarium Static Battlers/Sideview Batch Battlers/Darkness Behemoth.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Broodgate Demon.png",
+      "credit": "Ækashics / AI-enhanced"
+    },
+    {
+      "card": "Queen of the Unclaimed Path",
+      "original": "Assets/Aekashics Librarium Static Battlers/Sideview Batch Battlers/Boss Dark Queen Shaccad Yoggoth.png",
+      "enhanced": "Assets/CardCreator/EnhancedArtwork/Queen of the Unclaimed Path.png",
+      "credit": "Ækashics / AI-enhanced"
+    }
+  ]
+}

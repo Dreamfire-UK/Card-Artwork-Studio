@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8da173e69a9bd42921b4e60f3377d5, type: 3}
+  m_Name: Hollow Skitter
+  m_EditorClassIdentifier: Assembly-CSharp::CardCreator.CardDefinition
+  cardName: Hollow Skitter
+  archetype: Night Brood
+  kind: 0
+  essence: 2
+  secondEssence: 0
+  grade: 1
+  power: 3
+  defense: 1
+  canPlayInFront: 1
+  canPlayInRear: 1
+  rearProduces: 2
+  genericEssenceCost: 0
+  guard: 0
+  promote: 1
+  promoteCondition: When the opposing front zone empties, advance to your empty front
+    zone exhausted.
+  attackArrows: 0
+  arrowEffect: 
+  guardArrowEffect: 
+  abilities: []
+  flavorText: 
+  evolvesFrom: {fileID: 0}
+  requiredScars: 2
+  triumphQuest: 
+  onEvolution: 
+  evolutionOngoing: 
+  background: {fileID: 0}
+  artwork: {fileID: 2800000, guid: c8d40476cf487e244ab0a498a385b5e2, type: 3}
+  artworkIncludesBackground: 0
+  artworkOffset: {x: 0, y: 175}
+  artworkScale: 1
+  artistCredit: "\xC6kashics / AI-enhanced"
+  frameAccent: {r: 0.65, g: 0.48, b: 0.82, a: 1}

@@ -1,0 +1,220 @@
+{
+  "Grave Moth": {
+    "abilities": [
+      {
+        "trigger": 8,
+        "condition": "",
+        "effect": "When the opposing front zone empties, gain +1 power for your next attack. Does not stack.",
+        "oncePerTurn": false
+      }
+    ],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Shade Imp": {
+    "abilities": [
+      {
+        "trigger": 1,
+        "condition": "",
+        "effect": "If played in front, the opposing creature loses 1 power this turn.",
+        "oncePerTurn": false
+      }
+    ],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Webling": {
+    "abilities": [
+      {
+        "trigger": 1,
+        "condition": "",
+        "effect": "Web an adjacent enemy front zone. Its next arrival stays exhausted through its next ready step.",
+        "oncePerTurn": false
+      }
+    ],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Hollow Skitter": {
+    "abilities": [],
+    "promoteCondition": "When the opposing front zone empties, advance to your empty front zone exhausted.",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Silkspinner": {
+    "abilities": [],
+    "promoteCondition": "",
+    "arrowEffect": "Arrowed enemies have -1 power while attacking.",
+    "guardArrowEffect": "Arrowed enemies have -1 power while attacking.",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Ruin Spectre": {
+    "abilities": [
+      {
+        "trigger": 3,
+        "condition": "",
+        "effect": "After another ally moves, move to an adjacent empty front zone.",
+        "oncePerTurn": true
+      }
+    ],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Widow Matron": {
+    "abilities": [],
+    "promoteCondition": "",
+    "arrowEffect": "When an enemy leaves an arrowed zone, heal 1 damage from an ally.",
+    "guardArrowEffect": "When an enemy leaves an arrowed zone, heal 1 damage from an ally.",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Broodgate Demon": {
+    "abilities": [],
+    "promoteCondition": "",
+    "arrowEffect": "Arrowed enemies have -1 defence during your attacks.",
+    "guardArrowEffect": "Arrowed allies get +1 defence.",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Queen of the Unclaimed Path": {
+    "abilities": [],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "Hit the opponent through a column whose enemy front zone was occupied this turn.",
+    "onEvolution": "Move one ally to an adjacent empty front zone.",
+    "evolutionOngoing": "Once per turn, an ally entering an arrowed front zone gets +1 power for its next battle."
+  },
+  "Seedling Attendant": {
+    "abilities": [
+      {
+        "trigger": 0,
+        "condition": "",
+        "effect": "When an adjacent ally survives battle, heal 1 damage from it.",
+        "oncePerTurn": false
+      }
+    ],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Thornwatch Stag": {
+    "abilities": [],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Vine Scout": {
+    "abilities": [
+      {
+        "trigger": 1,
+        "condition": "",
+        "effect": "Move a rear ally sideways into an empty rear zone.",
+        "oncePerTurn": false
+      }
+    ],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Briar Sprout": {
+    "abilities": [],
+    "promoteCondition": "When an adjacent-column ally survives battle, advance to your empty front zone exhausted. Give that ally +1 defence this turn.",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Briar Warden": {
+    "abilities": [],
+    "promoteCondition": "",
+    "arrowEffect": "Arrowed allies get +1 power.",
+    "guardArrowEffect": "Arrowed allies get +1 defence.",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Grove Mender": {
+    "abilities": [
+      {
+        "trigger": 11,
+        "condition": "",
+        "effect": "Choose 1 ally in this or an adjacent column; heal 1 damage from it.",
+        "oncePerTurn": true
+      }
+    ],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Walking Thicket": {
+    "abilities": [
+      {
+        "trigger": 6,
+        "condition": "",
+        "effect": "If protecting an adjacent-column ally, gain +1 defence this battle.",
+        "oncePerTurn": false
+      }
+    ],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Heartwood Herald": {
+    "abilities": [],
+    "promoteCondition": "",
+    "arrowEffect": "Arrowed allies get +1 power.",
+    "guardArrowEffect": "Arrowed allies get +1 defence.",
+    "triumphQuest": "",
+    "onEvolution": "",
+    "evolutionOngoing": ""
+  },
+  "Yggdrasil, Living Citadel": {
+    "abilities": [],
+    "promoteCondition": "",
+    "arrowEffect": "",
+    "guardArrowEffect": "",
+    "triumphQuest": "End an opponent's battle holding 3 consecutive columns, with at least 2 front creatures.",
+    "onEvolution": "Heal 1 damage from each ally in those columns.",
+    "evolutionOngoing": "Once per turn, save a defeated arrowed ally by moving it to an empty rear zone."
+  }
+}

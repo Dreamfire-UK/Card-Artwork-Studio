@@ -1,0 +1,227 @@
+[
+  {
+    "proposal": "attack",
+    "result": {
+      "decks": [
+        "Rootbound Court",
+        "Night Brood"
+      ],
+      "games": 400,
+      "wins": [
+        248,
+        152
+      ],
+      "draws": 0,
+      "score": 0.62,
+      "paired_95_interval": [
+        0.5811711033368137,
+        0.6588288966631863
+      ],
+      "first_player_wins": 292,
+      "evolutions": [
+        52,
+        3
+      ],
+      "metrics": {
+        "plays": 8305,
+        "moves": 771,
+        "battles": 6691,
+        "direct_hits": 4047,
+        "web_entries": 441,
+        "scars": 2002,
+        "deaths": 3275,
+        "heals": 1021,
+        "turns": 5596,
+        "stance_changes": 729,
+        "intercepts": 512,
+        "promotions": 118,
+        "evolutions_0": 22,
+        "citadel_saves": 24,
+        "evolutions_1": 33,
+        "queen_arrow_boosts": 1
+      },
+      "trace": [],
+      "frames": []
+    }
+  },
+  {
+    "proposal": "attack-survival",
+    "result": {
+      "decks": [
+        "Rootbound Court",
+        "Night Brood"
+      ],
+      "games": 400,
+      "wins": [
+        242,
+        158
+      ],
+      "draws": 0,
+      "score": 0.605,
+      "paired_95_interval": [
+        0.564737147562149,
+        0.645262852437851
+      ],
+      "first_player_wins": 288,
+      "evolutions": [
+        56,
+        3
+      ],
+      "metrics": {
+        "plays": 8331,
+        "moves": 775,
+        "battles": 6750,
+        "direct_hits": 4051,
+        "web_entries": 442,
+        "scars": 2084,
+        "deaths": 3301,
+        "heals": 1047,
+        "turns": 5620,
+        "stance_changes": 724,
+        "intercepts": 518,
+        "promotions": 118,
+        "evolutions_0": 25,
+        "citadel_saves": 26,
+        "evolutions_1": 34,
+        "queen_arrow_boosts": 1
+      },
+      "trace": [],
+      "frames": []
+    }
+  },
+  {
+    "proposal": "attack-boss",
+    "result": {
+      "decks": [
+        "Rootbound Court",
+        "Night Brood"
+      ],
+      "games": 400,
+      "wins": [
+        229,
+        171
+      ],
+      "draws": 0,
+      "score": 0.5725,
+      "paired_95_interval": [
+        0.5323526839636243,
+        0.6126473160363757
+      ],
+      "first_player_wins": 283,
+      "evolutions": [
+        55,
+        4
+      ],
+      "metrics": {
+        "plays": 8357,
+        "moves": 784,
+        "battles": 6788,
+        "direct_hits": 4054,
+        "web_entries": 440,
+        "scars": 2151,
+        "deaths": 3303,
+        "heals": 1073,
+        "turns": 5621,
+        "stance_changes": 757,
+        "intercepts": 531,
+        "promotions": 118,
+        "evolutions_0": 24,
+        "citadel_saves": 25,
+        "evolutions_1": 35,
+        "queen_arrow_boosts": 1
+      },
+      "trace": [],
+      "frames": []
+    }
+  },
+  {
+    "proposal": "attack-mid",
+    "result": {
+      "decks": [
+        "Rootbound Court",
+        "Night Brood"
+      ],
+      "games": 400,
+      "wins": [
+        214,
+        186
+      ],
+      "draws": 0,
+      "score": 0.535,
+      "paired_95_interval": [
+        0.49245259575438005,
+        0.57754740424562
+      ],
+      "first_player_wins": 290,
+      "evolutions": [
+        63,
+        1
+      ],
+      "metrics": {
+        "plays": 8414,
+        "moves": 796,
+        "battles": 6952,
+        "direct_hits": 4069,
+        "web_entries": 454,
+        "scars": 2413,
+        "deaths": 3331,
+        "heals": 1183,
+        "turns": 5676,
+        "stance_changes": 735,
+        "intercepts": 536,
+        "promotions": 119,
+        "evolutions_0": 28,
+        "citadel_saves": 33,
+        "evolutions_1": 36,
+        "queen_arrow_boosts": 1
+      },
+      "trace": [],
+      "frames": []
+    }
+  },
+  {
+    "proposal": "attack-all",
+    "result": {
+      "decks": [
+        "Rootbound Court",
+        "Night Brood"
+      ],
+      "games": 400,
+      "wins": [
+        185,
+        215
+      ],
+      "draws": 0,
+      "score": 0.4625,
+      "paired_95_interval": [
+        0.4208539833415297,
+        0.5041460166584704
+      ],
+      "first_player_wins": 281,
+      "evolutions": [
+        68,
+        2
+      ],
+      "metrics": {
+        "plays": 8461,
+        "moves": 803,
+        "battles": 7113,
+        "direct_hits": 4088,
+        "web_entries": 450,
+        "scars": 2632,
+        "deaths": 3391,
+        "heals": 1224,
+        "turns": 5715,
+        "stance_changes": 772,
+        "intercepts": 565,
+        "promotions": 118,
+        "evolutions_0": 29,
+        "citadel_saves": 37,
+        "evolutions_1": 41,
+        "queen_arrow_boosts": 1
+      },
+      "trace": [],
+      "frames": []
+    }
+  }
+]

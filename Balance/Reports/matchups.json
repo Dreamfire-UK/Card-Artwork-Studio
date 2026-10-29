@@ -1,0 +1,6996 @@
+[
+  {
+    "decks": [
+      "Rootbound Court",
+      "Rootbound Court"
+    ],
+    "games": 1000,
+    "wins": [
+      500,
+      500
+    ],
+    "draws": 0,
+    "score": 0.5,
+    "paired_95_interval": [
+      0.5,
+      0.5
+    ],
+    "first_player_wins": 660,
+    "evolutions": [
+      174,
+      174
+    ],
+    "metrics": {
+      "plays": 22878,
+      "stance_changes": 3802,
+      "battles": 18182,
+      "direct_hits": 9258,
+      "scars": 7596,
+      "deaths": 10296,
+      "heals": 4956,
+      "moves": 3976,
+      "promotions": 370,
+      "turns": 15676,
+      "intercepts": 2668,
+      "evolutions_1": 184,
+      "evolutions_0": 164,
+      "citadel_saves": 172,
+      "deck_outs": 4
+    },
+    "trace": [],
+    "frames": []
+  },
+  {
+    "decks": [
+      "Rootbound Court",
+      "Night Brood"
+    ],
+    "games": 1000,
+    "wins": [
+      490,
+      510
+    ],
+    "draws": 0,
+    "score": 0.49,
+    "paired_95_interval": [
+      0.46369213258784453,
+      0.5163078674121554
+    ],
+    "first_player_wins": 702,
+    "evolutions": [
+      173,
+      10
+    ],
+    "metrics": {
+      "plays": 21669,
+      "web_entries": 1151,
+      "stance_changes": 2097,
+      "battles": 18122,
+      "intercepts": 1519,
+      "deaths": 8952,
+      "direct_hits": 10251,
+      "scars": 6736,
+      "heals": 3312,
+      "turns": 14582,
+      "moves": 2027,
+      "evolutions_0": 72,
+      "promotions": 287,
+      "evolutions_1": 111,
+      "citadel_saves": 94
+    },
+    "trace": [
+      "T1 P1: plays Seedling Attendant in rear 3",
+      "T1 P1: End turn",
+      "T2 P2: plays Webling in rear 3",
+      "T2 P2: End turn",
+      "T3 P1: plays Briar Sprout in rear 2",
+      "T3 P1: plays Thornwatch Stag in front 3",
+      "T3 P1: End turn",
+      "T4 P2: plays Shade Imp in rear 2",
+      "T4 P2: plays Hollow Skitter in front 4",
+      "T4 P2: End turn",
+      "T5 P1: plays Thornwatch Stag in rear 1",
+      "T5 P1: plays Briar Warden in front 2",
+      "T5 P1: End turn",
+      "T6 P2: plays Grave Moth in rear 4",
+      "T6 P2: plays Silkspinner in front 5",
+      "T6 P2: Hollow Skitter battles Thornwatch Stag in column 3: 3/3 damage",
+      "T6 P2: End turn",
+      "T7 P1: plays Heartwood Herald in front 3",
+      "T7 P1: End turn",
+      "T8 P2: plays Broodgate Demon in front 4",
+      "T8 P2: Silkspinner strikes player through column 5",
+      "T8 P2: End turn",
+      "T9 P1: plays Briar Warden in front 1",
+      "T9 P1: plays Thornwatch Stag in front 4",
+      "T9 P1: Briar Warden strikes player through column 2",
+      "T9 P1: Heartwood Herald strikes player through column 3",
+      "T9 P1: End turn",
+      "T10 P2: plays Broodgate Demon in front 3",
+      "T10 P2: Broodgate Demon battles Thornwatch Stag in column 4: 4/3 damage",
+      "T10 P2: Silkspinner strikes player through column 5",
+      "T10 P2: End turn",
+      "T11 P1: plays Heartwood Herald in front 4",
+      "T11 P1: Heartwood Herald battles Broodgate Demon in column 3: 6/4 damage",
+      "T11 P1: Briar Warden strikes player through column 2",
+      "T11 P1: Briar Warden strikes player through column 1",
+      "T11 P1: End turn",
+      "T12 P2: plays Widow Matron in front 3",
+      "T12 P2: plays Grave Moth in front 2",
+      "T12 P2: Silkspinner strikes player through column 5",
+      "T12 P2: Broodgate Demon battles Heartwood Herald in column 4: 4/5 damage",
+      "T12 P2: End turn",
+      "T13 P1: plays Heartwood Herald in front 4",
+      "T13 P1: Heartwood Herald battles Widow Matron in column 3: 6/2 damage",
+      "T13 P1: Briar Warden strikes player through column 1",
+      "T13 P1: End turn"
+    ],
+    "frames": [
+      {
+        "event": "T1 P1: plays Seedling Attendant in rear 3",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T1 P1: End turn",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T2 P2: plays Webling in rear 3",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T2 P2: End turn",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T3 P1: plays Briar Sprout in rear 2",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T3 P1: plays Thornwatch Stag in front 3",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T3 P1: End turn",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T4 P2: plays Shade Imp in rear 2",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T4 P2: plays Hollow Skitter in front 4",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Hollow Skitter",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T4 P2: End turn",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Hollow Skitter",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T5 P1: plays Thornwatch Stag in rear 1",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Hollow Skitter",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T5 P1: plays Briar Warden in front 2",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              3
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Hollow Skitter",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T5 P1: End turn",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": true,
+            "arrows": 0,
+            "stats": [
+              3,
+              3
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Hollow Skitter",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T6 P2: plays Grave Moth in rear 4",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": true,
+            "arrows": 0,
+            "stats": [
+              3,
+              3
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Hollow Skitter",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              3,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T6 P2: plays Silkspinner in front 5",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": true,
+            "arrows": 0,
+            "stats": [
+              3,
+              3
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Hollow Skitter",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              3,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T6 P2: Hollow Skitter battles Thornwatch Stag in column 3: 3/3 damage",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 3,
+            "scars": 0,
+            "ready": false,
+            "guard": true,
+            "arrows": 0,
+            "stats": [
+              3,
+              3
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Hollow Skitter",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              3,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T6 P2: End turn",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              3,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T7 P1: plays Heartwood Herald in front 3",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T7 P1: End turn",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T8 P2: plays Broodgate Demon in front 4",
+        "life": [
+          20,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T8 P2: Silkspinner strikes player through column 5",
+        "life": [
+          18,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T8 P2: End turn",
+        "life": [
+          18,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T9 P1: plays Briar Warden in front 1",
+        "life": [
+          18,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T9 P1: plays Thornwatch Stag in front 4",
+        "life": [
+          18,
+          20
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T9 P1: Briar Warden strikes player through column 2",
+        "life": [
+          18,
+          15
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T9 P1: Heartwood Herald strikes player through column 3",
+        "life": [
+          18,
+          10
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T9 P1: End turn",
+        "life": [
+          18,
+          10
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T10 P2: plays Broodgate Demon in front 3",
+        "life": [
+          18,
+          10
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              3
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T10 P2: Broodgate Demon battles Thornwatch Stag in column 4: 4/3 damage",
+        "life": [
+          18,
+          10
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              3
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              3
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 4,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T10 P2: Silkspinner strikes player through column 5",
+        "life": [
+          16,
+          10
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              3
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              3
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T10 P2: End turn",
+        "life": [
+          16,
+          10
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T11 P1: plays Heartwood Herald in front 4",
+        "life": [
+          16,
+          10
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T11 P1: Heartwood Herald battles Broodgate Demon in column 3: 6/4 damage",
+        "life": [
+          16,
+          10
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 4,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 6,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T11 P1: Briar Warden strikes player through column 2",
+        "life": [
+          16,
+          5
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T11 P1: Briar Warden strikes player through column 1",
+        "life": [
+          16,
+          1
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T11 P1: End turn",
+        "life": [
+          16,
+          1
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T12 P2: plays Widow Matron in front 3",
+        "life": [
+          16,
+          1
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 1,
+            "ready": true,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Widow Matron",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              2,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T12 P2: plays Grave Moth in front 2",
+        "life": [
+          16,
+          1
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              5
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 1,
+            "ready": true,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Widow Matron",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T12 P2: Silkspinner strikes player through column 5",
+        "life": [
+          14,
+          1
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              4
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 3,
+            "scars": 1,
+            "ready": true,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Widow Matron",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T12 P2: Broodgate Demon battles Heartwood Herald in column 4: 4/5 damage",
+        "life": [
+          14,
+          1
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              4
+            ]
+          },
+          {
+            "name": "Broodgate Demon",
+            "owner": 1,
+            "row": 1,
+            "col": 3,
+            "damage": 8,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              4,
+              6
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 4,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Widow Matron",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T12 P2: End turn",
+        "life": [
+          14,
+          1
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 3,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Widow Matron",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T13 P1: plays Heartwood Herald in front 4",
+        "life": [
+          14,
+          1
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 3,
+            "scars": 1,
+            "ready": true,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              5
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Widow Matron",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T13 P1: Heartwood Herald battles Widow Matron in column 3: 6/2 damage",
+        "life": [
+          14,
+          1
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              5,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 2,
+            "damage": 5,
+            "scars": 1,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              6,
+              5
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Widow Matron",
+            "owner": 1,
+            "row": 1,
+            "col": 2,
+            "damage": 6,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 131,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              5,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T13 P1: Briar Warden strikes player through column 1",
+        "life": [
+          14,
+          -3
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "event": "T13 P1: End turn",
+        "life": [
+          14,
+          -3
+        ],
+        "units": [
+          {
+            "name": "Seedling Attendant",
+            "owner": 0,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Webling",
+            "owner": 1,
+            "row": 0,
+            "col": 2,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Briar Sprout",
+            "owner": 0,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              1,
+              2
+            ]
+          },
+          {
+            "name": "Shade Imp",
+            "owner": 1,
+            "row": 0,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Thornwatch Stag",
+            "owner": 0,
+            "row": 0,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": true,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 0,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              4,
+              1
+            ]
+          },
+          {
+            "name": "Silkspinner",
+            "owner": 1,
+            "row": 1,
+            "col": 4,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 130,
+            "stats": [
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Briar Warden",
+            "owner": 0,
+            "row": 1,
+            "col": 0,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 68,
+            "stats": [
+              4,
+              4
+            ]
+          },
+          {
+            "name": "Grave Moth",
+            "owner": 1,
+            "row": 1,
+            "col": 1,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 0,
+            "stats": [
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Heartwood Herald",
+            "owner": 0,
+            "row": 1,
+            "col": 3,
+            "damage": 0,
+            "scars": 0,
+            "ready": false,
+            "guard": false,
+            "arrows": 84,
+            "stats": [
+              4,
+              5
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "decks": [
+      "Night Brood",
+      "Night Brood"
+    ],
+    "games": 1000,
+    "wins": [
+      500,
+      500
+    ],
+    "draws": 0,
+    "score": 0.5,
+    "paired_95_interval": [
+      0.5,
+      0.5
+    ],
+    "first_player_wins": 688,
+    "evolutions": [
+      8,
+      8
+    ],
+    "metrics": {
+      "plays": 21818,
+      "web_entries": 2364,
+      "battles": 20110,
+      "direct_hits": 11666,
+      "scars": 7614,
+      "deaths": 9280,
+      "stance_changes": 1224,
+      "intercepts": 784,
+      "turns": 14712,
+      "heals": 2064,
+      "moves": 270,
+      "promotions": 194,
+      "evolutions_0": 10,
+      "evolutions_1": 6
+    },
+    "trace": [],
+    "frames": []
+  }
+]

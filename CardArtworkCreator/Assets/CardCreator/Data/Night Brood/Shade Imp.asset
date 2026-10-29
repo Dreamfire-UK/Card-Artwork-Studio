@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8da173e69a9bd42921b4e60f3377d5, type: 3}
+  m_Name: Shade Imp
+  m_EditorClassIdentifier: Assembly-CSharp::CardCreator.CardDefinition
+  cardName: Shade Imp
+  archetype: Night Brood
+  kind: 0
+  essence: 2
+  secondEssence: 0
+  grade: 1
+  power: 2
+  defense: 2
+  canPlayInFront: 1
+  canPlayInRear: 1
+  rearProduces: 2
+  genericEssenceCost: 0
+  guard: 0
+  promote: 0
+  promoteCondition: 
+  attackArrows: 0
+  arrowEffect: 
+  guardArrowEffect: 
+  abilities:
+  - trigger: 1
+    condition: 
+    effect: If played in front, the opposing creature loses 1 power this turn.
+    oncePerTurn: 0
+  flavorText: 
+  evolvesFrom: {fileID: 0}
+  requiredScars: 2
+  triumphQuest: 
+  onEvolution: 
+  evolutionOngoing: 
+  background: {fileID: 0}
+  artwork: {fileID: 2800000, guid: f14cd97021d2fb3438fb24272b7d0caf, type: 3}
+  artworkIncludesBackground: 0
+  artworkOffset: {x: 0, y: 175}
+  artworkScale: 1
+  artistCredit: "\xC6kashics / AI-enhanced"
+  frameAccent: {r: 0.65, g: 0.48, b: 0.82, a: 1}

@@ -1,0 +1,45 @@
+T1 P1: plays Seedling Attendant in rear 3
+T1 P1: End turn
+T2 P2: plays Webling in rear 3
+T2 P2: End turn
+T3 P1: plays Briar Sprout in rear 2
+T3 P1: plays Thornwatch Stag in front 3
+T3 P1: End turn
+T4 P2: plays Shade Imp in rear 2
+T4 P2: plays Hollow Skitter in front 4
+T4 P2: End turn
+T5 P1: plays Thornwatch Stag in rear 1
+T5 P1: plays Briar Warden in front 2
+T5 P1: End turn
+T6 P2: plays Grave Moth in rear 4
+T6 P2: plays Silkspinner in front 5
+T6 P2: Hollow Skitter battles Thornwatch Stag in column 3: 3/3 damage
+T6 P2: End turn
+T7 P1: plays Heartwood Herald in front 3
+T7 P1: End turn
+T8 P2: plays Broodgate Demon in front 4
+T8 P2: Silkspinner strikes player through column 5
+T8 P2: End turn
+T9 P1: plays Briar Warden in front 1
+T9 P1: plays Thornwatch Stag in front 4
+T9 P1: Briar Warden strikes player through column 2
+T9 P1: Heartwood Herald strikes player through column 3
+T9 P1: End turn
+T10 P2: plays Broodgate Demon in front 3
+T10 P2: Broodgate Demon battles Thornwatch Stag in column 4: 4/3 damage
+T10 P2: Silkspinner strikes player through column 5
+T10 P2: End turn
+T11 P1: plays Heartwood Herald in front 4
+T11 P1: Heartwood Herald battles Broodgate Demon in column 3: 6/4 damage
+T11 P1: Briar Warden strikes player through column 2
+T11 P1: Briar Warden strikes player through column 1
+T11 P1: End turn
+T12 P2: plays Widow Matron in front 3
+T12 P2: plays Grave Moth in front 2
+T12 P2: Silkspinner strikes player through column 5
+T12 P2: Broodgate Demon battles Heartwood Herald in column 4: 4/5 damage
+T12 P2: End turn
+T13 P1: plays Heartwood Herald in front 4
+T13 P1: Heartwood Herald battles Widow Matron in column 3: 6/2 damage
+T13 P1: Briar Warden strikes player through column 1
+T13 P1: End turn

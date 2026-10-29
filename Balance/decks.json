@@ -1,0 +1,181 @@
+{
+    "schema": "card-balance-v1",
+    "decks": [
+        {
+            "name": "Night Brood",
+            "main": [
+                {
+                    "quantity": 3,
+                    "cardJson": "{\n    \"cardName\": \"Grave Moth\",\n    \"archetype\": \"Night Brood\",\n    \"kind\": 0,\n    \"essence\": 2,\n    \"secondEssence\": 0,\n    \"grade\": 1,\n    \"power\": 3,\n    \"defense\": 1,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 2,\n    \"genericEssenceCost\": 0,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [\n        {\n            \"trigger\": 8,\n            \"condition\": \"\",\n            \"effect\": \"When the opposing front zone empties, gain +1 power for your next attack. Does not stack.\",\n            \"oncePerTurn\": false\n        }\n    ],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40828\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.6499999761581421,\n        \"g\": 0.47999998927116396,\n        \"b\": 0.8199999928474426,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Night Brood/Grave Moth.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Grave Moth.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 3,
+                    "cardJson": "{\n    \"cardName\": \"Shade Imp\",\n    \"archetype\": \"Night Brood\",\n    \"kind\": 0,\n    \"essence\": 2,\n    \"secondEssence\": 0,\n    \"grade\": 1,\n    \"power\": 2,\n    \"defense\": 2,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 2,\n    \"genericEssenceCost\": 0,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [\n        {\n            \"trigger\": 1,\n            \"condition\": \"\",\n            \"effect\": \"If played in front, the opposing creature loses 1 power this turn.\",\n            \"oncePerTurn\": false\n        }\n    ],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40838\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.6499999761581421,\n        \"g\": 0.47999998927116396,\n        \"b\": 0.8199999928474426,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Night Brood/Shade Imp.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Shade Imp.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 3,
+                    "cardJson": "{\n    \"cardName\": \"Webling\",\n    \"archetype\": \"Night Brood\",\n    \"kind\": 0,\n    \"essence\": 2,\n    \"secondEssence\": 0,\n    \"grade\": 1,\n    \"power\": 2,\n    \"defense\": 2,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 2,\n    \"genericEssenceCost\": 0,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [\n        {\n            \"trigger\": 1,\n            \"condition\": \"\",\n            \"effect\": \"Web an adjacent enemy front zone. Its next arrival stays exhausted through its next ready step.\",\n            \"oncePerTurn\": false\n        }\n    ],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40830\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.6499999761581421,\n        \"g\": 0.47999998927116396,\n        \"b\": 0.8199999928474426,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Night Brood/Webling.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Webling.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 2,
+                    "cardJson": "{\n    \"cardName\": \"Hollow Skitter\",\n    \"archetype\": \"Night Brood\",\n    \"kind\": 0,\n    \"essence\": 2,\n    \"secondEssence\": 0,\n    \"grade\": 1,\n    \"power\": 3,\n    \"defense\": 1,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 2,\n    \"genericEssenceCost\": 0,\n    \"guard\": false,\n    \"promote\": true,\n    \"promoteCondition\": \"When the opposing front zone empties, advance to your empty front zone exhausted.\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40834\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.6499999761581421,\n        \"g\": 0.47999998927116396,\n        \"b\": 0.8199999928474426,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Night Brood/Hollow Skitter.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Hollow Skitter.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 2,
+                    "cardJson": "{\n    \"cardName\": \"Silkspinner\",\n    \"archetype\": \"Night Brood\",\n    \"kind\": 0,\n    \"essence\": 2,\n    \"secondEssence\": 0,\n    \"grade\": 2,\n    \"power\": 2,\n    \"defense\": 5,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 2,\n    \"genericEssenceCost\": 1,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 130,\n    \"arrowEffect\": \"Arrowed enemies have -1 power while attacking.\",\n    \"guardArrowEffect\": \"Arrowed enemies have -1 power while attacking.\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40844\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.6499999761581421,\n        \"g\": 0.47999998927116396,\n        \"b\": 0.8199999928474426,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Night Brood/Silkspinner.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Silkspinner.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 2,
+                    "cardJson": "{\n    \"cardName\": \"Ruin Spectre\",\n    \"archetype\": \"Night Brood\",\n    \"kind\": 0,\n    \"essence\": 2,\n    \"secondEssence\": 0,\n    \"grade\": 2,\n    \"power\": 3,\n    \"defense\": 4,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 2,\n    \"genericEssenceCost\": 1,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [\n        {\n            \"trigger\": 3,\n            \"condition\": \"\",\n            \"effect\": \"After another ally moves, move to an adjacent empty front zone.\",\n            \"oncePerTurn\": true\n        }\n    ],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40842\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.6499999761581421,\n        \"g\": 0.47999998927116396,\n        \"b\": 0.8199999928474426,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Night Brood/Ruin Spectre.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Ruin Spectre.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 2,
+                    "cardJson": "{\n    \"cardName\": \"Widow Matron\",\n    \"archetype\": \"Night Brood\",\n    \"kind\": 0,\n    \"essence\": 2,\n    \"secondEssence\": 0,\n    \"grade\": 2,\n    \"power\": 2,\n    \"defense\": 5,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 2,\n    \"genericEssenceCost\": 1,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 131,\n    \"arrowEffect\": \"When an enemy leaves an arrowed zone, heal 1 damage from an ally.\",\n    \"guardArrowEffect\": \"When an enemy leaves an arrowed zone, heal 1 damage from an ally.\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40840\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.6499999761581421,\n        \"g\": 0.47999998927116396,\n        \"b\": 0.8199999928474426,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Night Brood/Widow Matron.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Widow Matron.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 3,
+                    "cardJson": "{\n    \"cardName\": \"Broodgate Demon\",\n    \"archetype\": \"Night Brood\",\n    \"kind\": 0,\n    \"essence\": 2,\n    \"secondEssence\": 0,\n    \"grade\": 3,\n    \"power\": 4,\n    \"defense\": 6,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 2,\n    \"genericEssenceCost\": 2,\n    \"guard\": true,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 131,\n    \"arrowEffect\": \"Arrowed enemies have -1 defence during your attacks.\",\n    \"guardArrowEffect\": \"Arrowed allies get +1 defence.\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40832\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.6499999761581421,\n        \"g\": 0.47999998927116396,\n        \"b\": 0.8199999928474426,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Night Brood/Broodgate Demon.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Broodgate Demon.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                }
+            ],
+            "evolution": [
+                {
+                    "quantity": 1,
+                    "cardJson": "{\n    \"cardName\": \"Queen of the Unclaimed Path\",\n    \"archetype\": \"Night Brood\",\n    \"kind\": 1,\n    \"essence\": 2,\n    \"secondEssence\": 0,\n    \"grade\": 3,\n    \"power\": 5,\n    \"defense\": 6,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 2,\n    \"genericEssenceCost\": 2,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 84,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 40298\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"Hit the opponent through a column whose enemy front zone was occupied this turn.\",\n    \"onEvolution\": \"Move one ally to an adjacent empty front zone.\",\n    \"evolutionOngoing\": \"Once per turn, an ally entering an arrowed front zone gets +1 power for its next battle.\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40836\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 215.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.6499999761581421,\n        \"g\": 0.47999998927116396,\n        \"b\": 0.8199999928474426,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Night Brood/Queen of the Unclaimed Path.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Queen of the Unclaimed Path.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": "Broodgate Demon"
+                }
+            ]
+        },
+        {
+            "name": "Rootbound Court",
+            "main": [
+                {
+                    "quantity": 3,
+                    "cardJson": "{\n    \"cardName\": \"Seedling Attendant\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 0,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 1,\n    \"power\": 1,\n    \"defense\": 2,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 0,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [\n        {\n            \"trigger\": 0,\n            \"condition\": \"\",\n            \"effect\": \"When an adjacent ally survives battle, heal 1 damage from it.\",\n            \"oncePerTurn\": false\n        }\n    ],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40862\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Rootbound Court/Seedling Attendant.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Seedling Attendant.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 3,
+                    "cardJson": "{\n    \"cardName\": \"Thornwatch Stag\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 0,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 1,\n    \"power\": 2,\n    \"defense\": 3,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 0,\n    \"guard\": true,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40864\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Rootbound Court/Thornwatch Stag.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Thornwatch Stag.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 3,
+                    "cardJson": "{\n    \"cardName\": \"Vine Scout\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 0,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 1,\n    \"power\": 2,\n    \"defense\": 1,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 0,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [\n        {\n            \"trigger\": 1,\n            \"condition\": \"\",\n            \"effect\": \"Move a rear ally sideways into an empty rear zone.\",\n            \"oncePerTurn\": false\n        }\n    ],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40866\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Rootbound Court/Vine Scout.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Vine Scout.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 2,
+                    "cardJson": "{\n    \"cardName\": \"Briar Sprout\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 0,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 1,\n    \"power\": 1,\n    \"defense\": 2,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 0,\n    \"guard\": false,\n    \"promote\": true,\n    \"promoteCondition\": \"When an adjacent-column ally survives battle, advance to your empty front zone exhausted. Give that ally +1 defence this turn.\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40850\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Rootbound Court/Briar Sprout.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Briar Sprout.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 2,
+                    "cardJson": "{\n    \"cardName\": \"Briar Warden\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 0,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 2,\n    \"power\": 3,\n    \"defense\": 4,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 1,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 68,\n    \"arrowEffect\": \"Arrowed allies get +1 power.\",\n    \"guardArrowEffect\": \"Arrowed allies get +1 defence.\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40856\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Rootbound Court/Briar Warden.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Briar Warden.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 2,
+                    "cardJson": "{\n    \"cardName\": \"Grove Mender\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 0,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 2,\n    \"power\": 2,\n    \"defense\": 4,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 1,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [\n        {\n            \"trigger\": 11,\n            \"condition\": \"\",\n            \"effect\": \"Choose 1 ally in this or an adjacent column; heal 1 damage from it.\",\n            \"oncePerTurn\": true\n        }\n    ],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40858\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Rootbound Court/Grove Mender.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Grove Mender.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 2,
+                    "cardJson": "{\n    \"cardName\": \"Walking Thicket\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 0,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 2,\n    \"power\": 3,\n    \"defense\": 5,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 1,\n    \"guard\": true,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 0,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [\n        {\n            \"trigger\": 6,\n            \"condition\": \"\",\n            \"effect\": \"If protecting an adjacent-column ally, gain +1 defence this battle.\",\n            \"oncePerTurn\": false\n        }\n    ],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40868\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Rootbound Court/Walking Thicket.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Walking Thicket.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                },
+                {
+                    "quantity": 3,
+                    "cardJson": "{\n    \"cardName\": \"Heartwood Herald\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 0,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 3,\n    \"power\": 4,\n    \"defense\": 5,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 2,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 84,\n    \"arrowEffect\": \"Arrowed allies get +1 power.\",\n    \"guardArrowEffect\": \"Arrowed allies get +1 defence.\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40860\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 175.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Rootbound Court/Heartwood Herald.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Heartwood Herald.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": ""
+                }
+            ],
+            "evolution": [
+                {
+                    "quantity": 1,
+                    "cardJson": "{\n    \"cardName\": \"Yggdrasil, Living Citadel\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 1,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 3,\n    \"power\": 5,\n    \"defense\": 7,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 2,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 84,\n    \"arrowEffect\": \"\",\n    \"guardArrowEffect\": \"\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 40142\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"End an opponent's battle holding 3 consecutive columns, with at least 2 front creatures.\",\n    \"onEvolution\": \"Heal 1 damage from each ally in those columns.\",\n    \"evolutionOngoing\": \"Once per turn, save a defeated arrowed ally by moving it to an empty rear zone.\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40870\n    },\n    \"artworkIncludesBackground\": false,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 215.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"Ækashics / AI-enhanced\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+                    "assetPath": "Assets/CardCreator/Data/Rootbound Court/Yggdrasil, Living Citadel.asset",
+                    "artworkPath": "Assets/CardCreator/EnhancedArtwork/Yggdrasil, Living Citadel.png",
+                    "backgroundPath": "",
+                    "evolvesFrom": "Heartwood Herald"
+                }
+            ]
+        }
+    ],
+    "variants": [
+        {
+            "quantity": 0,
+            "cardJson": "{\n    \"cardName\": \"Briar Warden\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 0,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 2,\n    \"power\": 3,\n    \"defense\": 4,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 1,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 68,\n    \"arrowEffect\": \"Arrowed allies get +1 power.\",\n    \"guardArrowEffect\": \"Arrowed allies get +1 defence.\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40852\n    },\n    \"artworkIncludesBackground\": true,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 0.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"AI-assisted original\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+            "assetPath": "Assets/CardCreator/Data/Rootbound Court/Briar Warden - Illustrated.asset",
+            "artworkPath": "Assets/CardCreator/Illustrations/Briar-Warden-Illustrated.png",
+            "backgroundPath": "",
+            "evolvesFrom": ""
+        },
+        {
+            "quantity": 0,
+            "cardJson": "{\n    \"cardName\": \"Briar Warden\",\n    \"archetype\": \"Rootbound Court\",\n    \"kind\": 0,\n    \"essence\": 1,\n    \"secondEssence\": 0,\n    \"grade\": 2,\n    \"power\": 3,\n    \"defense\": 4,\n    \"canPlayInFront\": true,\n    \"canPlayInRear\": true,\n    \"rearProduces\": 1,\n    \"genericEssenceCost\": 1,\n    \"guard\": false,\n    \"promote\": false,\n    \"promoteCondition\": \"\",\n    \"attackArrows\": 68,\n    \"arrowEffect\": \"Arrowed allies get +1 power.\",\n    \"guardArrowEffect\": \"Arrowed allies get +1 defence.\",\n    \"abilities\": [],\n    \"flavorText\": \"\",\n    \"evolvesFrom\": {\n        \"instanceID\": 0\n    },\n    \"requiredScars\": 2,\n    \"triumphQuest\": \"\",\n    \"onEvolution\": \"\",\n    \"evolutionOngoing\": \"\",\n    \"background\": {\n        \"instanceID\": 0\n    },\n    \"artwork\": {\n        \"instanceID\": 40854\n    },\n    \"artworkIncludesBackground\": true,\n    \"artworkOffset\": {\n        \"x\": 0.0,\n        \"y\": 0.0\n    },\n    \"artworkScale\": 1.0,\n    \"artistCredit\": \"AI-assisted original\",\n    \"frameAccent\": {\n        \"r\": 0.800000011920929,\n        \"g\": 0.4000000059604645,\n        \"b\": 0.49000000953674319,\n        \"a\": 1.0\n    }\n}",
+            "assetPath": "Assets/CardCreator/Data/Rootbound Court/Briar Warden - Storybook.asset",
+            "artworkPath": "Assets/CardCreator/Illustrations/Briar-Warden-Storybook.png",
+            "backgroundPath": "",
+            "evolvesFrom": ""
+        }
+    ]
+}

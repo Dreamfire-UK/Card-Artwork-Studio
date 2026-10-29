@@ -1,0 +1,89 @@
+[
+  {
+    "profile": "arrows off",
+    "result": {
+      "decks": [
+        "Rootbound Court",
+        "Night Brood"
+      ],
+      "games": 600,
+      "wins": [
+        270,
+        330
+      ],
+      "draws": 0,
+      "score": 0.45,
+      "paired_95_interval": [
+        0.4161528782949775,
+        0.48384712170502253
+      ],
+      "first_player_wins": 384,
+      "evolutions": [
+        180,
+        9
+      ],
+      "metrics": {
+        "plays": 13768,
+        "web_entries": 752,
+        "stance_changes": 1442,
+        "battles": 12575,
+        "direct_hits": 6634,
+        "scars": 5685,
+        "deaths": 6233,
+        "intercepts": 1082,
+        "moves": 1301,
+        "heals": 2034,
+        "turns": 9332,
+        "evolutions_0": 84,
+        "evolutions_1": 105,
+        "promotions": 242
+      },
+      "trace": [],
+      "frames": []
+    }
+  },
+  {
+    "profile": "one scar",
+    "result": {
+      "decks": [
+        "Rootbound Court",
+        "Night Brood"
+      ],
+      "games": 600,
+      "wins": [
+        334,
+        266
+      ],
+      "draws": 0,
+      "score": 0.5566666666666666,
+      "paired_95_interval": [
+        0.5239214322756113,
+        0.589411901057722
+      ],
+      "first_player_wins": 410,
+      "evolutions": [
+        435,
+        14
+      ],
+      "metrics": {
+        "plays": 13108,
+        "web_entries": 717,
+        "stance_changes": 1315,
+        "battles": 11216,
+        "direct_hits": 6205,
+        "scars": 4446,
+        "deaths": 5237,
+        "intercepts": 941,
+        "moves": 1555,
+        "turns": 8858,
+        "heals": 2591,
+        "evolutions_1": 240,
+        "evolutions_0": 209,
+        "citadel_saves": 363,
+        "promotions": 201
+      },
+      "trace": [],
+      "frames": []
+    }
+  }
+]

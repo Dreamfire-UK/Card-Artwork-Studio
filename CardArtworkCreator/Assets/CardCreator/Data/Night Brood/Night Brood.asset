@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18209b9c4e3487a478dcbf78191fd206, type: 3}
+  m_Name: Night Brood
+  m_EditorClassIdentifier: Assembly-CSharp::CardCreator.CardDeckDefinition
+  deckName: Night Brood
+  mainDeck:
+  - card: {fileID: 11400000, guid: c0e81945d13f6074db5e6860f6b819f8, type: 2}
+    quantity: 3
+  - card: {fileID: 11400000, guid: 1f6161b75bd2a8c418205b0b5fc9bbf6, type: 2}
+    quantity: 3
+  - card: {fileID: 11400000, guid: faf968c070ec81a47b0f682d4f6f062b, type: 2}
+    quantity: 3
+  - card: {fileID: 11400000, guid: 6ae0469bb4801f04e9358915ea76a201, type: 2}
+    quantity: 2
+  - card: {fileID: 11400000, guid: 2a5ef11e1bd73514a992d78805708cb0, type: 2}
+    quantity: 2
+  - card: {fileID: 11400000, guid: 39f9b5ed51afc8a4d9348a32f609250d, type: 2}
+    quantity: 2
+  - card: {fileID: 11400000, guid: edefb403e5c8ced47913c2d4833dadd0, type: 2}
+    quantity: 2
+  - card: {fileID: 11400000, guid: 91ab51ef765df7446a3fbf57a94606b2, type: 2}
+    quantity: 3
+  evolutionDeck:
+  - card: {fileID: 11400000, guid: 11e474f91c9ee244c928dada66cc27f7, type: 2}
+    quantity: 1
