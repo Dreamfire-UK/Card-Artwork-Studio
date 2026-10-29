@@ -5,6 +5,7 @@ namespace CardCreator.Editor
 {
     internal sealed class CardLayoutReport
     {
+        public float dividerY;
         public bool rulesOverflow;
         public bool flavorHidden;
         public string Message => rulesOverflow
@@ -24,6 +25,7 @@ namespace CardCreator.Editor
         }
         internal static string Rules(CardDefinition card, bool guardStance)
         {
+            if (card.kind == CardKind.Reference) return card.referenceText ?? "";
             var lines = new List<string>();
             if (card.guard) lines.Add("[CONT] Guard.");
             if (card.promote) lines.Add("[AUTO] Promote — " + Punctuate(card.promoteCondition));
@@ -59,14 +61,30 @@ namespace CardCreator.Editor
         }
         internal static string RichRules(CardDefinition card, bool guardStance)
         {
+            if (card.kind == CardKind.Reference) return card.referenceText ?? "";
             string text = Rules(card, guardStance).Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;");
+            var timings = new HashSet<string>();
             text = Regex.Replace(text, @"\[(AUTO|ACT|CONT)\]", match => {
                 string type = match.Groups[1].Value;
                 string color = type == "AUTO" ? "F4B08E" : type == "ACT" ? "90C9EF" : "B6D996";
-                return "<color=#" + color + "><b>[" + type + "]</b></color>";
+                return "<color=#" + color + "><b>[" + type + "]</b></color>" +
+                    (timings.Add(type) ? " <i>(" + (type == "AUTO" ? "Triggered" : type == "ACT" ? "Activated" : "Continuous") + ")</i>" : "");
             });
-            text = Regex.Replace(text, @"\b(Guard|Promote|Triumph|Scars|Web)\b", match =>
-                "<color=#" + (match.Value == "Triumph" || match.Value == "Scars" ? "EBCB82" : "C5B2F3") + "><b>" + match.Value + "</b></color>");
+            var explained = new HashSet<string>();
+            text = Regex.Replace(text, @"\b(Guard|Promote|Triumph|Scars|Web)\b", match => {
+                string keyword = match.Value;
+                string colored = "<color=#" + (keyword == "Triumph" || keyword == "Scars" ? "EBCB82" : "C5B2F3") + "><b>" + keyword + "</b></color>";
+                if (!explained.Add(keyword)) return colored;
+                string reminder;
+                switch (keyword) {
+                    case "Guard": reminder = "Ready front in Guard stance: intercept adjacent column; exhaust."; break;
+                    case "Promote": reminder = "Rear to own empty front, exhausted."; break;
+                    case "Triumph": reminder = "Evolve; keep damage, Scars and exhaustion."; break;
+                    case "Scars": reminder = "1 per battle surviving damage."; break;
+                    default: reminder = "Next entrant skips its next ready step."; break;
+                }
+                return colored + " <i>(" + reminder + ")</i>";
+            });
             return text;
         }
         private static bool HasTiming(string text) => Regex.IsMatch(Clean(text), @"^(When |After |If |Once per turn,)");

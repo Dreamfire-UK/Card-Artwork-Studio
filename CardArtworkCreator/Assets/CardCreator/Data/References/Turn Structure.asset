@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8da173e69a9bd42921b4e60f3377d5, type: 3}
+  m_Name: Turn Structure
+  m_EditorClassIdentifier: Assembly-CSharp::CardCreator.CardDefinition
+  referenceText: '<b>SETUP</b> 20 life. Draw 5. Each deck: 20 creatures + 1 evolution
+    kept aside. Board: 5 columns, front and rear.
+
+
+    <color=#EBCB82><b>1  READY</b></color>
+    Ready your creatures. Reset once-per-turn effects. A Webbed arrival skips its
+    next ready step.
+
+
+    <color=#EBCB82><b>2  DRAW</b></color> Draw 1. First player
+    skips their first draw. If you must draw from an empty deck, you lose.
+
+
+    <color=#EBCB82><b>3 
+    REAR</b></color> You may place 1 creature from hand in an empty rear zone for
+    free, exhausted.
+
+
+    <color=#EBCB82><b>4  ACT</b></color> Take up to 2 actions:
+    play a front creature, move one front creature sideways 1 zone, or change stance.
+    Exhaust ready rear creatures to pay printed Essence costs. New creatures enter
+    exhausted.
+
+
+    <color=#EBCB82><b>5  BATTLE</b></color> Each ready front creature
+    in Attack stance may attack once down its column; exhaust it. Guard may intercept.
+    Deal simultaneous damage; an open lane hits life. Resolve abilities and Triumph
+    after each battle.
+
+
+    <color=#EBCB82><b>6  END</b></color> End temporary bonuses.
+    Damage and Scars remain. Pass the turn. At 0 life, you lose.'
+  cardName: Turn Structure
+  archetype: Five Roads Reference
+  kind: 2
+  essence: 0
+  secondEssence: 0
+  grade: 1
+  power: 1
+  defense: 1
+  canPlayInFront: 0
+  canPlayInRear: 0
+  rearProduces: 0
+  genericEssenceCost: 0
+  guard: 0
+  promote: 0
+  promoteCondition: 
+  attackArrows: 0
+  arrowEffect: 
+  guardArrowEffect: 
+  abilities: []
+  flavorText: 
+  evolvesFrom: {fileID: 0}
+  requiredScars: 2
+  triumphQuest: 
+  onEvolution: 
+  evolutionOngoing: 
+  background: {fileID: 0}
+  artwork: {fileID: 0}
+  artworkIncludesBackground: 0
+  artworkOffset: {x: 0, y: 0}
+  artworkScale: 1
+  artistCredit: 
+  frameAccent: {r: 0.83, g: 0.7, b: 0.43, a: 1}

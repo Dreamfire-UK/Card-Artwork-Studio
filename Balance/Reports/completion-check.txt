@@ -1,0 +1,1 @@
+PASS: 22 saved CardDefinition ScriptableObjects. All card/variant/reference layouts fit in both stances. Both decks remain 20 main + 1 evolution. Reference card excluded from decks. Exports: 750 x 1050.

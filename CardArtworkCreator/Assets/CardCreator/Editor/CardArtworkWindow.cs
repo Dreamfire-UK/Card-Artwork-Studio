@@ -114,12 +114,17 @@ namespace CardCreator.Editor
             if (activeTab == "Design")
             {
                 Group(serialized, "Identity", "cardName", "archetype", "kind", "frameAccent");
+                if (card.kind == CardKind.Reference) return;
                 Group(serialized, "Essence & cost", "essence", "secondEssence", "grade", "genericEssenceCost");
                 Group(serialized, "Battle values", "power", "defense");
                 Group(serialized, "Board placement", "canPlayInFront", "canPlayInRear", "rearProduces");
             }
             else if (activeTab == "Rules")
             {
+                if (card.kind == CardKind.Reference) {
+                    Group(serialized, "Turn reference text", "referenceText");
+                    return;
+                }
                 Heading("Directional links");
                 var hint = new Label("Choose Attack directions. Guard rotates them clockwise."); hint.AddToClassList("studio-hint"); inspectorHost.Add(hint);
                 AddArrowGrid();
@@ -232,13 +237,14 @@ namespace CardCreator.Editor
                 status.text = string.IsNullOrEmpty(report.Message) ? "Ready to export · Full-card artwork" : report.Message;
                 status.EnableInClassList("has-warning", !string.IsNullOrEmpty(report.Message));
                 exportButton.SetEnabled(!report.rulesOverflow);
-                if (card.artwork != null)
+                if (card.kind == CardKind.Reference) { artInfo.text = "Turn reference · edit text in the Rules tab."; artInfo.EnableInClassList("has-warning",false); }
+                else if (card.artwork != null)
                 {
                     var art = card.artwork;
-                    float divider = card.kind == CardKind.Evolution ? 550 : 700;
+                    float divider = report.dividerY;
                     float enlargement = (card.artworkIncludesBackground
                         ? Mathf.Max(750f / art.width, divider / art.height)
-                        : Mathf.Min(730f / art.width, 1000f / art.height)) * card.artworkScale;
+                        : Mathf.Min(690f / art.width, (divider - 70f) / art.height)) * card.artworkScale;
                     artInfo.text = $"Artwork: {art.width} × {art.height} px" + (enlargement > 1.25f ? $" · Enlarged {enlargement:0.0}× — sharper art recommended" : "");
                     artInfo.EnableInClassList("has-warning", enlargement > 1.25f);
                 }

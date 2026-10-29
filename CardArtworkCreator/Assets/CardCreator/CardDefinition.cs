@@ -5,7 +5,7 @@ using UnityEngine;
 namespace CardCreator
 {
     public enum Essence { None, Grove, Gloom, Ember, Current }
-    public enum CardKind { Creature, Evolution }
+    public enum CardKind { Creature, Evolution, Reference }
     public enum CardTrigger
     {
         Passive, WhenPlayed, WhenPromoted, WhenMoved, WhenStanceChanged,
@@ -32,6 +32,9 @@ namespace CardCreator
     [CreateAssetMenu(fileName = "New Card", menuName = "Card Creator/Card")]
     public sealed class CardDefinition : ScriptableObject
     {
+        [Header("Reference card")]
+        [TextArea(12, 30)] public string referenceText;
+
         [Header("Identity")]
         public string cardName = "New Creature";
         public string archetype;

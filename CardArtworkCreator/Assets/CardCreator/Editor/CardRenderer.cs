@@ -55,11 +55,15 @@ namespace CardCreator.Editor
                     ?? Font.CreateDynamicFontFromOSFont("Georgia", 40);
 
                 var root = canvasObject.GetComponent<RectTransform>();
+                if (card.kind == CardKind.Reference) DrawReference(root, font, card, report);
+                else
+                {
                 var accent = card.frameAccent;
                 var measure = AddText(root, font, CardPrintLayout.RichRules(card, guardStance), 0, 0, 654, 1000, 23, Color.white);
                 measure.supportRichText = true;
                 measure.lineSpacing = 1.02f;
-                float divider = Mathf.Clamp(948 - 116 - measure.preferredHeight, 620, 780);
+                float divider = Mathf.Clamp(948 - 116 - measure.preferredHeight, 550, 780);
+                report.dividerY = divider;
                 UnityEngine.Object.DestroyImmediate(measure.gameObject);
                 // Both layers extend beneath the entire frame, including the text area.
                 var artPanel = AddPanel(root, "Full card illustration", 0, 0, Width, Height,
@@ -122,6 +126,7 @@ namespace CardCreator.Editor
                 AddIcon(root, "checked-shield", 612, 992, 23, 23, muted);
                 AddText(root, font, card.defense.ToString(), 641, 987, 34, 34, 24, ivory, FontStyle.Bold);
 
+                }
                 Canvas.ForceUpdateCanvases();
                 camera.Render();
                 RenderTexture.active = target;
@@ -140,6 +145,21 @@ namespace CardCreator.Editor
                 if (font != null && !AssetDatabase.Contains(font)) UnityEngine.Object.DestroyImmediate(font);
                 if (titleFont != null && !AssetDatabase.Contains(titleFont)) UnityEngine.Object.DestroyImmediate(titleFont);
             }
+        }
+
+        private static void DrawReference(RectTransform root, Font font, CardDefinition card, CardLayoutReport report)
+        {
+            var background = card.background != null ? card.background : DefaultBackground(Essence.Grove);
+            if (background != null) AddTexture(root, "Reference background", background, 0, 0, Width, Height, true);
+            AddPanel(root, "Reference readability", 0, 0, Width, Height, new Color(.065f,.10f,.12f,.94f));
+            AddPanel(root, "Accent", 40, 48, 670, 7, card.frameAccent);
+            AddText(root,font,card.cardName.ToUpperInvariant(),40,75,670,58,38,Color.white,FontStyle.Bold);
+            AddText(root,font,"FIVE ROADS  /  PROTOTYPE RULES",40,140,670,30,18,card.frameAccent,FontStyle.Bold);
+            var body=AddText(root,font,card.referenceText,40,200,670,760,24,new Color(.94f,.95f,.92f));
+            body.supportRichText=true; body.lineSpacing=1.06f;
+            report.rulesOverflow=body.preferredHeight>760;
+            AddPanel(root,"Footer line",40,983,670,1,card.frameAccent);
+            AddText(root,font,"REFERENCE CARD  /  KEEP OUTSIDE YOUR DECK",40,1001,670,24,15,card.frameAccent);
         }
 
         private static string EssenceIcon(Essence essence)

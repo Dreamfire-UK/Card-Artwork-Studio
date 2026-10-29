@@ -37,6 +37,15 @@ namespace CardCreator.Editor
                     UnityEngine.Object.DestroyImmediate(texture);
                 }
             }
+            foreach(var guid in AssetDatabase.FindAssets("t:CardDefinition",new[]{"Assets/CardCreator/Data"})) {
+                var reference=AssetDatabase.LoadAssetAtPath<CardDefinition>(AssetDatabase.GUIDToAssetPath(guid));
+                if(reference.kind!=CardKind.Reference) continue;
+                var image=CardRenderer.Render(reference,false,out var layout);
+                try {
+                    if(layout.rulesOverflow) throw new Exception("Reference overflow: "+reference.cardName);
+                    File.WriteAllBytes(Path.Combine(output,"cards",reference.cardName+".png"),image.EncodeToPNG());
+                } finally { UnityEngine.Object.DestroyImmediate(image); }
+            }
             Debug.Log("BALANCE EXPORT PASS: "+b.decks.Count+" decks, "+seen.Count+" unique deck cards.");
         }
         static Entry Item(CardDefinition c,int n) => new Entry{quantity=n,cardJson=JsonUtility.ToJson(c,true),assetPath=AssetDatabase.GetAssetPath(c),artworkPath=AssetDatabase.GetAssetPath(c.artwork),backgroundPath=AssetDatabase.GetAssetPath(c.background),evolvesFrom=c.evolvesFrom==null?"":c.evolvesFrom.cardName};

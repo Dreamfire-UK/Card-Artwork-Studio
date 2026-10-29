@@ -85,3 +85,16 @@ interpolation. Original sprites remain in place. The card face retains artist
 credit. EnhancedArtwork/artwork-provenance.json maps every card to its original.
 Textures import without mipmaps or block compression, with a 4096 size limit.
 Card previews are actual Unity renders at 750 x 1050 pixels.
+
+KEYWORD REMINDERS AND TURN CARD
+Guard, Promote, Triumph, Scars and Web print a short italic parenthetical reminder
+on first occurrence. AUTO/ACT/CONT also include italic timing explanations.
+The turn reference uses the same CardDefinition ScriptableObject and 750 x 1050
+renderer. Open Assets/CardCreator/Data/References/Turn Structure.asset, then the
+Rules tab to edit its text. Create another via Tools > Card Creator > Create Turn
+Reference Card (this selects an existing copy rather than overwriting edits).
+CardKind.Reference is deliberately excluded from the playable decks. Deck
+validation rejects it if added. Both playable decks still contain 20 + 1 cards.
+The turn card records the existing prototype rules, not a newly confirmed final
+rulebook. All 22 saved card assets, including variants and reference, were checked
+for readable layouts in both stances. The simulation's 25 checks still pass.

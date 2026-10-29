@@ -92,6 +92,7 @@ namespace CardCreator.Editor
                 if (entry == null || entry.card == null) { errors.Add("An entry has no card assigned."); continue; }
                 if (entry.quantity < 1) { errors.Add(entry.card.cardName + ": quantity must be positive."); continue; }
                 if (!seen.Add(entry.card)) errors.Add(entry.card.cardName + ": duplicate row; combine its quantities.");
+                if (entry.card.kind == CardKind.Reference) errors.Add(entry.card.cardName + ": reference cards stay outside decks.");
                 if ((entry.card.kind == CardKind.Evolution) != evolution)
                     errors.Add(entry.card.cardName + ": placed in the wrong deck.");
                 count += entry.quantity;
