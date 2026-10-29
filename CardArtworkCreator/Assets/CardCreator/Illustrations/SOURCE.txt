@@ -1,0 +1,4 @@
+Briar Warden - Illustrated
+Original illustration generated with OpenAI image generation on 29 October 2026 for this project.
+This is AI-assisted artwork, not a downloaded human-painted illustration or artwork from Dinn.
+Full illustration and generated source are separate from the Unity-rendered card frame and text.

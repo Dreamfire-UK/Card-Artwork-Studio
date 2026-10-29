@@ -2,62 +2,67 @@ using System;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
-
 namespace CardCreator.Editor
 {
-    internal static class CardFramePreviewCheck
+    public static class CardFramePreviewCheck
     {
-        [InitializeOnLoadMethod]
-        private static void CheckRequestedPreview()
+        [MenuItem("Tools/Card Creator/Validate and Render Rootbound Court")]
+        public static void Run()
         {
-            if (!File.Exists("Temp/CardFramePreview.request")) return;
-            EditorApplication.delayCall += Run;
-        }
-
-        private static void Run()
-        {
-            if (EditorApplication.isCompiling) { EditorApplication.delayCall += Run; return; }
-            File.Delete("Temp/CardFramePreview.request");
-            CardDefinition card = null;
-            Texture2D image = null;
+            RootboundCourtSamples.Create();
+            string folder = RootboundCourtSamples.Folder;
+            string output = Environment.GetEnvironmentVariable("CARD_PREVIEW_OUTPUT");
+            if (string.IsNullOrEmpty(output)) output = "CardPreviews";
+            Directory.CreateDirectory(output);
+            var deck = AssetDatabase.LoadAssetAtPath<CardDeckDefinition>(folder + "/Rootbound Court.asset");
+            string summary = CardDeckWindow.Summarize(deck, out bool valid);
+            Require(valid, summary);
+            int promotions = 0;
+            foreach (var entry in deck.mainDeck)
+            {
+                if (entry.card.promote) promotions++;
+                Require(entry.card.artwork != null, "Missing art: " + entry.card.cardName);
+                Render(entry.card, false, output);
+                Render(entry.card, true, output);
+            }
+            Require(promotions == 1, "Exactly one distinct Promote creature expected.");
+            Render(deck.evolutionDeck[0].card, false, output);
+            Render(deck.evolutionDeck[0].card, true, output);
+            var warden = AssetDatabase.LoadAssetAtPath<CardDefinition>(folder + "/Briar Warden.asset");
+            Require(CardPrintLayout.Cost(warden) == "1 Grove + 1 any", "Explicit cost");
+            Require(CardPrintLayout.Rules(warden, false).Contains("+1 power"), "Attack effect");
+            Require(CardPrintLayout.Rules(warden, true).Contains("+1 defence"), "Guard effect");
+            Require(warden.GuardArrows == (CardArrow.North | CardArrow.South), "Clockwise arrow rotation");
+            var probe = ScriptableObject.CreateInstance<CardDefinition>();
             try
             {
-                foreach (string file in Directory.GetFiles("Assets/CardCreator/Backgrounds", "*.png"))
-                    AssetDatabase.ImportAsset(file.Replace('\\', '/'), ImportAssetOptions.ForceUpdate);
-                card = ScriptableObject.CreateInstance<CardDefinition>();
-                card.cardName = "Briar Warden";
-                card.archetype = "Rootbound Court";
-                card.grade = 2;
-                card.genericEssenceCost = 1;
-                card.power = 3;
-                card.defense = 4;
-                card.guard = true;
-                card.attackArrows = CardArrow.West | CardArrow.East | CardArrow.NorthEast;
-                card.arrowEffect = "Friendly creatures in arrowed zones gain +1 power.";
-                card.artwork = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Aekashics Librarium Static Battlers/Sideview Batch Battlers/Dryads Warrior.png");
-                image = CardRenderer.Render(card, false);
-                File.WriteAllBytes("Temp/CardFrame-Grove.png", image.EncodeToPNG());
+                probe.flavorText = new string('W', 3000);
+                var image = CardRenderer.Render(probe, false, out var report);
                 UnityEngine.Object.DestroyImmediate(image);
-                card.cardName = "Broodgate Demon";
-                card.archetype = "Night Brood";
-                card.essence = Essence.Gloom;
-                card.rearProduces = Essence.Gloom;
-                card.artwork = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/Aekashics Librarium Static Battlers/Sideview Batch Battlers/Darkness Reaper.png");
-                card.attackArrows = (CardArrow)255;
-                image = CardRenderer.Render(card, false);
-                File.WriteAllBytes("Temp/CardFrame-Gloom.png", image.EncodeToPNG());
-                File.WriteAllText("Temp/CardFramePreview.result", "PASS: rendered both 750x1050 card examples in Unity.");
+                Require(report.flavorHidden && !report.rulesOverflow, "Hide flavour first");
+                probe.abilities.Add(new CardAbility { effect = new string('W', 3000) });
+                image = CardRenderer.Render(probe, false, out report);
+                UnityEngine.Object.DestroyImmediate(image);
+                Require(report.rulesOverflow, "Report overflowing rules");
             }
-            catch (Exception error)
+            finally { UnityEngine.Object.DestroyImmediate(probe); }
+            File.WriteAllText(Path.Combine(output, "validation.txt"), "PASS: all 9 cards in both stances; readable rules, explicit costs, arrow rotation, flavour fallback, overflow detection.\n" + summary);
+            Debug.Log("Card Creator validation PASS. Exports: " + Path.GetFullPath(output));
+        }
+        private static void Render(CardDefinition card, bool guard, string folder)
+        {
+            var image = CardRenderer.Render(card, guard, out var report);
+            try
             {
-                File.WriteAllText("Temp/CardFramePreview.result", error.ToString());
-                Debug.LogException(error);
+                Require(!report.rulesOverflow, card.cardName + ": " + report.Message);
+                Require(image.width == 750 && image.height == 1050, "Export dimensions");
+                File.WriteAllBytes(Path.Combine(folder, card.cardName.Replace(",", "") + (guard ? "-Guard" : "-Attack") + ".png"), image.EncodeToPNG());
             }
-            finally
-            {
-                if (image != null) UnityEngine.Object.DestroyImmediate(image);
-                if (card != null) UnityEngine.Object.DestroyImmediate(card);
-            }
+            finally { UnityEngine.Object.DestroyImmediate(image); }
+        }
+        private static void Require(bool value, string message)
+        {
+            if (!value) throw new InvalidOperationException("Card validation failed: " + message);
         }
     }
 }

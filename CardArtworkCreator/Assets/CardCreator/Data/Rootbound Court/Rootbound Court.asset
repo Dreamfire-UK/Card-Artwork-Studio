@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18209b9c4e3487a478dcbf78191fd206, type: 3}
+  m_Name: Rootbound Court
+  m_EditorClassIdentifier: Assembly-CSharp::CardCreator.CardDeckDefinition
+  deckName: Rootbound Court
+  mainDeck:
+  - card: {fileID: 11400000, guid: 81a640739930f1b468e5a85b8282a650, type: 2}
+    quantity: 3
+  - card: {fileID: 11400000, guid: b4e9b285451cc7748b45c07da5c8870f, type: 2}
+    quantity: 3
+  - card: {fileID: 11400000, guid: d6ca08e583c288a4d9b547ce22446099, type: 2}
+    quantity: 3
+  - card: {fileID: 11400000, guid: 34c97d2af32c2de49934113afccaf7e2, type: 2}
+    quantity: 2
+  - card: {fileID: 11400000, guid: bdcdf21e395b8f54db0e0ed821d568b2, type: 2}
+    quantity: 2
+  - card: {fileID: 11400000, guid: 839071c47e899284799a129fa1dd9e56, type: 2}
+    quantity: 2
+  - card: {fileID: 11400000, guid: 8c1e8f5b8b340d74b8559683ab705edc, type: 2}
+    quantity: 2
+  - card: {fileID: 11400000, guid: 7b052e9fb51967f4589820e9be780e1f, type: 2}
+    quantity: 3
+  evolutionDeck:
+  - card: {fileID: 11400000, guid: 9f68feaa4d3305a4da86c7894a9d2902, type: 2}
+    quantity: 1

@@ -27,6 +27,7 @@ namespace CardCreator.Editor
         internal static string Rules(CardDefinition card, bool guardStance)
         {
             var lines = new List<string>();
+            if (card.guard) lines.Add("Guard");
             if (card.promote)
                 lines.Add("Promote — " + Clean(card.promoteCondition));
             if (card.attackArrows != CardArrow.None)

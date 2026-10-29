@@ -73,10 +73,13 @@ namespace CardCreator
         [Header("Artwork")]
         public Texture2D background;
         public Texture2D artwork;
+        [Tooltip("The artwork is a complete illustration with its own background. Fill the illustration area instead of compositing a character.")]
+        public bool artworkIncludesBackground;
         [Tooltip("Position of the character on the full card, in card pixels. Drag the preview to adjust.")]
         public Vector2 artworkOffset;
         [Range(0.25f, 3f)] public float artworkScale = 1f;
         public string artistCredit = "Ækashics";
+        public Color frameAccent = new Color(0.80f, 0.40f, 0.49f, 1);
 
         public CardArrow GuardArrows
         {

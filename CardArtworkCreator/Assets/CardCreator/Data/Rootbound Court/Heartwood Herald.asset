@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8da173e69a9bd42921b4e60f3377d5, type: 3}
+  m_Name: Heartwood Herald
+  m_EditorClassIdentifier: Assembly-CSharp::CardCreator.CardDefinition
+  cardName: Heartwood Herald
+  archetype: Rootbound Court
+  kind: 0
+  essence: 1
+  secondEssence: 0
+  grade: 3
+  power: 4
+  defense: 5
+  canPlayInFront: 1
+  canPlayInRear: 1
+  rearProduces: 1
+  genericEssenceCost: 2
+  guard: 0
+  promote: 0
+  promoteCondition: 
+  attackArrows: 69
+  arrowEffect: Arrowed allies get +1 power.
+  guardArrowEffect: Arrowed allies get +1 defence.
+  abilities: []
+  flavorText: 
+  evolvesFrom: {fileID: 0}
+  requiredScars: 2
+  triumphQuest: 
+  onEvolution: 
+  evolutionOngoing: 
+  background: {fileID: 0}
+  artwork: {fileID: 2800000, guid: da935b1d2f3752d47b99fdb8a0f30fbb, type: 3}
+  artworkOffset: {x: 0, y: 105}
+  artworkScale: 0.88
+  artistCredit: "\xC6kashics"

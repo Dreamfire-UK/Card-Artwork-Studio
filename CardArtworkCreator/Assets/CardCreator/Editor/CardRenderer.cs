@@ -1,5 +1,4 @@
 using System;
-using System.Text;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,7 +11,11 @@ namespace CardCreator.Editor
         internal const int Height = 1050;
 
         internal static Texture2D Render(CardDefinition card, bool guardStance)
+            => Render(card, guardStance, out _);
+
+        internal static Texture2D Render(CardDefinition card, bool guardStance, out CardLayoutReport report)
         {
+            report = new CardLayoutReport();
             if (card == null)
                 throw new ArgumentNullException(nameof(card));
 
@@ -46,84 +49,81 @@ namespace CardCreator.Editor
                 canvas.worldCamera = camera;
                 canvas.planeDistance = 1;
                 canvas.pixelPerfect = true;
-                font = Font.CreateDynamicFontFromOSFont("Arial", 32);
-                titleFont = Font.CreateDynamicFontFromOSFont("Georgia", 40);
+                font = AssetDatabase.LoadAssetAtPath<Font>("Assets/CardCreator/OnlineAssets/Inter.ttf")
+                    ?? Font.CreateDynamicFontFromOSFont("Arial", 32);
+                titleFont = AssetDatabase.LoadAssetAtPath<Font>("Assets/CardCreator/OnlineAssets/Cinzel.ttf")
+                    ?? Font.CreateDynamicFontFromOSFont("Georgia", 40);
 
                 var root = canvasObject.GetComponent<RectTransform>();
-                var accent = EssenceColor(card.essence);
+                var accent = card.frameAccent;
+                float divider = card.kind == CardKind.Evolution ? 550 : 700;
                 // Both layers extend beneath the entire frame, including the text area.
                 var artPanel = AddPanel(root, "Full card illustration", 0, 0, Width, Height,
                     new Color(accent.r * 0.3f, accent.g * 0.3f, accent.b * 0.3f));
                 artPanel.gameObject.AddComponent<RectMask2D>();
                 var background = card.background != null ? card.background : DefaultBackground(card.essence);
-                if (background != null)
+                if (background != null && !card.artworkIncludesBackground)
                     AddTexture(artPanel, "Background", background, 0, 0, Width, Height, true);
                 if (card.artwork != null)
                 {
-                    float fit = Mathf.Min(730f / card.artwork.width, 1000f / card.artwork.height);
+                    float fit = card.artworkIncludesBackground
+                        ? Mathf.Max(750f / card.artwork.width, divider / card.artwork.height)
+                        : Mathf.Min(730f / card.artwork.width, 1000f / card.artwork.height);
                     float artWidth = card.artwork.width * fit * card.artworkScale;
                     float artHeight = card.artwork.height * fit * card.artworkScale;
                     var artwork = AddTexture(artPanel, "Character", card.artwork, 0, 0,
                         artWidth, artHeight, false);
                     artwork.anchorMin = artwork.anchorMax = new Vector2(0.5f, 0.5f);
                     artwork.pivot = new Vector2(0.5f, 0.5f);
-                    artwork.anchoredPosition = card.artworkOffset;
+                    artwork.anchoredPosition = card.artworkOffset + (card.artworkIncludesBackground ? new Vector2(0, (Height - divider) * 0.5f) : Vector2.zero);
                 }
 
-                AddFrame(root, accent, CardArrow.None, true);
-                AddFrame(root, accent, guardStance ? card.GuardArrows : card.attackArrows, false);
+                AddFrame(root, card, accent, CardArrow.None, true);
+                AddFrame(root, card, accent, guardStance ? card.GuardArrows : card.attackArrows, false);
 
-                Color ivory = new Color(0.96f, 0.93f, 0.84f);
-                Color mutedGold = new Color(0.79f, 0.73f, 0.57f);
-                var title = AddText(root, titleFont, card.cardName, 89, 58, 572, 52,
-                    39, ivory, FontStyle.Bold, TextAnchor.MiddleCenter);
-                title.resizeTextForBestFit = true;
-                title.resizeTextMinSize = 23;
-                title.resizeTextMaxSize = 39;
-
-                string type = card.kind == CardKind.Evolution ? "EVOLUTION" : "CREATURE";
-                string subtitle = string.IsNullOrWhiteSpace(card.archetype)
-                    ? type : card.archetype.ToUpperInvariant() + "  /  " + type;
-                AddText(root, font, subtitle, 100, 112, 550, 22, 15, mutedGold,
-                    FontStyle.Normal, TextAnchor.MiddleCenter);
-
-                AddText(root, titleFont, card.grade.ToString(), 45, 166, 52, 45,
-                    31, ivory, FontStyle.Bold, TextAnchor.MiddleCenter);
-                AddText(root, font, "GRADE", 38, 233, 66, 17, 11, mutedGold,
+                Color ivory = new Color(0.93f, 0.94f, 0.92f);
+                Color muted = new Color(0.65f, 0.70f, 0.71f);
+                AddText(root, font, card.grade.ToString(), 69, divider-38, 74, 76, 48, accent,
                     FontStyle.Bold, TextAnchor.MiddleCenter);
-
-                string essence = card.secondEssence == Essence.None
-                    ? card.essence.ToString() : card.essence + " / " + card.secondEssence;
-                AddText(root, font, essence.ToUpperInvariant(), 405, 171, 268, 25,
-                    17, ivory, FontStyle.Bold, TextAnchor.UpperRight);
-                string cost = card.genericEssenceCost > 0 ? " + " + card.genericEssenceCost + " ANY" : "";
-                AddText(root, font, card.kind == CardKind.Evolution ? "EVOLUTION DECK" : "1 ESSENCE" +
-                    (card.secondEssence != Essence.None ? " + 1 " + card.secondEssence.ToString().ToUpperInvariant() : "") + cost,
-                    355, 199, 318, 23, 13, mutedGold, FontStyle.Normal, TextAnchor.UpperRight);
-
-                var keywords = new StringBuilder();
-                if (card.guard) keywords.Append("GUARD    ");
-                if (card.promote) keywords.Append("PROMOTE    ");
-                if (card.kind == CardKind.Evolution) keywords.Append("TRIUMPH");
-                AddText(root, font, keywords.ToString().Trim(), 65, 730, 620, 26,
-                    18, ivory, FontStyle.Bold, TextAnchor.MiddleCenter);
-                AddText(root, font, BuildRules(card, guardStance), 65, 789, 620, 151,
-                    21, ivory);
-
-                AddText(root, titleFont, card.power.ToString(), 591, 952, 46, 38,
-                    27, ivory, FontStyle.Bold, TextAnchor.MiddleCenter);
-                AddText(root, titleFont, card.defense.ToString(), 652, 952, 46, 38,
-                    27, ivory, FontStyle.Bold, TextAnchor.MiddleCenter);
-                AddText(root, font, "ATK", 590, 1010, 48, 15, 10, mutedGold, FontStyle.Bold, TextAnchor.MiddleCenter);
-                AddText(root, font, "DEF", 651, 1010, 48, 15, 10, mutedGold, FontStyle.Bold, TextAnchor.MiddleCenter);
-                AddText(root, font, string.IsNullOrWhiteSpace(card.artistCredit) ? "" : "ART · " + card.artistCredit,
-                    65, 977, 470, 23, 14, mutedGold);
+                var title = AddText(root, font, card.cardName.ToUpperInvariant(), 184, divider+29, 506, 52,
+                    34, ivory, FontStyle.Bold);
+                title.resizeTextForBestFit = true;
+                title.resizeTextMinSize = 24;
+                title.resizeTextMaxSize = 34;
+                string type = card.kind == CardKind.Evolution ? "EVOLUTION" : "CREATURE";
+                AddText(root, font, type + "  /  " + CardPrintLayout.Cost(card), 184, divider+81, 506, 24,
+                    16, muted);
+                if (card.canPlayInRear && card.rearProduces != Essence.None)
+                    AddIcon(root, EssenceIcon(card.rearProduces), 86, divider+82, 40, 40, accent);
+                if(card.guard) AddIcon(root, "checked-shield", 86, divider+150, 40, 40, accent);
+                if(card.promote) AddText(root, font, "P", 86, divider+(card.guard ? 210 : 150), 40,40,28,accent,FontStyle.Bold,TextAnchor.MiddleCenter);
+                float rulesY = divider + 124;
+                float rulesHeight = 960 - rulesY;
+                var rules = AddText(root, font, CardPrintLayout.Rules(card, guardStance),
+                    184, rulesY, 506, rulesHeight, 23, ivory);
+                rules.lineSpacing = 1.02f;
+                report.rulesOverflow = rules.preferredHeight > rulesHeight + 0.5f;
+                if (!string.IsNullOrWhiteSpace(card.flavorText))
+                {
+                    float available = rulesHeight - rules.preferredHeight - 14;
+                    var flavor = AddText(root, font, card.flavorText.Trim(), 184,
+                        rulesY + rules.preferredHeight + 14, 506, Mathf.Max(1, available), 19,
+                        muted, FontStyle.Italic);
+                    report.flavorHidden = report.rulesOverflow || flavor.preferredHeight > available;
+                    flavor.gameObject.SetActive(!report.flavorHidden);
+                }
+                AddText(root, font, "Art: " + (card.artistCredit ?? ""), 184, 990, 290, 38, 11, muted);
+                AddIcon(root, "broadsword", 526, 992, 23, 23, muted);
+                AddText(root, font, card.power.ToString(), 555, 987, 34, 34, 24, ivory, FontStyle.Bold);
+                AddIcon(root, "checked-shield", 612, 992, 23, 23, muted);
+                AddText(root, font, card.defense.ToString(), 641, 987, 34, 34, 24, ivory, FontStyle.Bold);
 
                 Canvas.ForceUpdateCanvases();
                 camera.Render();
                 RenderTexture.active = target;
                 var output = new Texture2D(Width, Height, TextureFormat.RGBA32, false);
                 output.ReadPixels(new Rect(0, 0, Width, Height), 0, 0);
+                RoundCorners(output);
                 output.Apply();
                 return output;
             }
@@ -133,57 +133,55 @@ namespace CardCreator.Editor
                 if (target != null) RenderTexture.ReleaseTemporary(target);
                 UnityEngine.Object.DestroyImmediate(canvasObject);
                 UnityEngine.Object.DestroyImmediate(cameraObject);
-                if (font != null) UnityEngine.Object.DestroyImmediate(font);
-                if (titleFont != null) UnityEngine.Object.DestroyImmediate(titleFont);
+                if (font != null && !AssetDatabase.Contains(font)) UnityEngine.Object.DestroyImmediate(font);
+                if (titleFont != null && !AssetDatabase.Contains(titleFont)) UnityEngine.Object.DestroyImmediate(titleFont);
             }
         }
 
-        private static string BuildRules(CardDefinition card, bool guardStance)
+        private static string EssenceIcon(Essence essence)
         {
-            var parts = new StringBuilder();
-            if (card.kind == CardKind.Creature && card.canPlayInRear && card.rearProduces != Essence.None)
-                parts.Append("REAR — Exhaust: make 1 ").Append(card.rearProduces).Append(" Essence.\n");
-            if (card.promote && !string.IsNullOrWhiteSpace(card.promoteCondition))
-                parts.Append("PROMOTE — ").Append(card.promoteCondition.Trim()).Append('\n');
-            string arrowEffect = guardStance && !string.IsNullOrWhiteSpace(card.guardArrowEffect)
-                ? card.guardArrowEffect : card.arrowEffect;
-            if (card.attackArrows != CardArrow.None && !string.IsNullOrWhiteSpace(arrowEffect))
-                parts.Append("ARROWS — ").Append(arrowEffect.Trim()).Append('\n');
-            if (card.kind == CardKind.Evolution)
+            switch (essence)
             {
-                parts.Append("TRIUMPH — Evolve onto ")
-                    .Append(card.evolvesFrom != null ? card.evolvesFrom.cardName : "named base")
-                    .Append(" with ").Append(card.requiredScars).Append(" scars");
-                if (!string.IsNullOrWhiteSpace(card.triumphQuest))
-                    parts.Append("; ").Append(card.triumphQuest.Trim());
-                parts.Append('\n');
-                if (!string.IsNullOrWhiteSpace(card.onEvolution))
-                    parts.Append("ON EVOLUTION — ").Append(card.onEvolution.Trim()).Append('\n');
-                if (!string.IsNullOrWhiteSpace(card.evolutionOngoing))
-                    parts.Append(card.evolutionOngoing.Trim()).Append('\n');
+                case Essence.Grove: return "three-leaves";
+                case Essence.Ember: return "small-fire";
+                case Essence.Current: return "water-drop";
+                default: return "moon";
             }
-            foreach (var ability in card.abilities)
-            {
-                if (ability == null || string.IsNullOrWhiteSpace(ability.effect)) continue;
-                parts.Append(ability.trigger.ToString().ToUpperInvariant()).Append(" — ");
-                if (!string.IsNullOrWhiteSpace(ability.condition))
-                    parts.Append(ability.condition.Trim()).Append(": ");
-                parts.Append(ability.effect.Trim()).Append('\n');
-            }
-            if (!string.IsNullOrWhiteSpace(card.flavorText))
-                parts.Append('\n').Append(card.flavorText.Trim());
-            return parts.ToString().TrimEnd();
         }
 
-        private static void AddFrame(RectTransform parent, Color accent, CardArrow arrows, bool shading)
+        private static void AddIcon(RectTransform parent, string name, float x, float y, float w, float h, Color tint)
+        {
+            var texture = AssetDatabase.LoadAssetAtPath<Texture2D>("Assets/CardCreator/OnlineAssets/" + name + ".png");
+            if (texture == null) return;
+            var rect = AddTexture(parent, name, texture, x, y, w, h, false);
+            rect.GetComponent<RawImage>().color = tint;
+        }
+
+        private static void AddFrame(RectTransform parent, CardDefinition card, Color accent, CardArrow arrows, bool shading)
         {
             var rect = AddRect(parent, shading ? "Text shading" : "Engraved frame", 0, 0, Width, Height);
             var graphic = rect.gameObject.AddComponent<CardFrameGraphic>();
             graphic.accent = accent;
+            graphic.evolution = card.kind == CardKind.Evolution;
+            graphic.essence = card.canPlayInRear ? card.rearProduces : Essence.None;
+            graphic.secondEssence = Essence.None;
             graphic.arrows = arrows;
             graphic.shadingOnly = shading;
             graphic.raycastTarget = false;
             graphic.SetVerticesDirty();
+        }
+
+        private static void RoundCorners(Texture2D texture)
+        {
+            const int radius = 24;
+            for (int y=0;y<radius;y++) for(int x=0;x<radius;x++)
+            {
+                float distance = Vector2.Distance(new Vector2(x+0.5f,y+0.5f),new Vector2(radius,radius));
+                float alpha = Mathf.Clamp01(radius-distance+0.5f);
+                if(alpha >= 1) continue;
+                foreach(var p in new[] { new Vector2Int(x,y),new Vector2Int(Width-1-x,y),new Vector2Int(x,Height-1-y),new Vector2Int(Width-1-x,Height-1-y) })
+                { var color=texture.GetPixel(p.x,p.y);color.a*=alpha;texture.SetPixel(p.x,p.y,color); }
+            }
         }
 
         private static RectTransform AddPanel(RectTransform parent, string name,
@@ -234,12 +232,7 @@ namespace CardCreator.Editor
             text.alignment = alignment;
             text.horizontalOverflow = HorizontalWrapMode.Wrap;
             text.verticalOverflow = VerticalWrapMode.Truncate;
-            if (height >= 150)
-            {
-                text.resizeTextForBestFit = true;
-                text.resizeTextMinSize = 13;
-                text.resizeTextMaxSize = size;
-            }
+            text.supportRichText = false;
             text.raycastTarget = false;
             return text;
         }

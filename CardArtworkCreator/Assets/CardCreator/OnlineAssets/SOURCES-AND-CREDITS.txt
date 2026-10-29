@@ -1,0 +1,30 @@
+ONLINE ASSETS - downloaded 29 October 2026
+
+Fantasy icons
+Icons made by Lorc and Sbed, https://game-icons.net
+License: Creative Commons Attribution 3.0 Unported
+https://creativecommons.org/licenses/by/3.0/
+Downloaded unchanged as white-on-transparent 512 x 512 PNGs.
+If tinted in the card UI, credit should say: Icons by Lorc and Sbed / game-icons.net / CC BY 3.0; recoloured.
+Include this credit and license in the project, exported card pack readme or game's credits as appropriate.
+
+Lorc (http://lorcblog.blogspot.com):
+https://game-icons.net/1x1/lorc/broadsword.html
+https://game-icons.net/1x1/lorc/checked-shield.html
+https://game-icons.net/1x1/lorc/three-leaves.html
+https://game-icons.net/1x1/lorc/small-fire.html
+https://game-icons.net/1x1/lorc/moon.html
+Sbed (http://opengameart.org/content/95-game-icons):
+https://game-icons.net/1x1/sbed/water-drop.html
+Original collection license in Game-Icons-LICENSE.txt.
+
+Cinzel by Natanael Gama / The Cinzel Project Authors
+https://github.com/google/fonts/tree/main/ofl/cinzel
+Unmodified variable TTF (weights 400-900). SIL Open Font License 1.1 in Cinzel-OFL.txt.
+
+Inter by The Inter Project Authors
+https://github.com/google/fonts/tree/main/ofl/inter
+Unmodified variable TTF (optical size and weight axes). SIL Open Font License 1.1 in Inter-OFL.txt.
+
+Use these as imported Font assets in Unity, not Font.CreateDynamicFontFromOSFont, to make the card export portable.
+Unity may expose only the variable font's default face; use FontStyle.Bold or bake a static instance locally if a precise weight is required.
